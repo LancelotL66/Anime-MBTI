@@ -27,6 +27,7 @@ interface DatabaseCenterProps {
   } | null;
   onScaleDb: () => Promise<void>;
   onImportAnime: (animeName: string) => Promise<void>;
+  onImportPdbIds?: (profileIds: string[]) => Promise<void>;
   loading: boolean;
   loadingMessage: string;
   error: string | null;
@@ -37,12 +38,14 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
   stats,
   onScaleDb,
   onImportAnime,
+  onImportPdbIds,
   loading,
   loadingMessage,
   error,
   successMessage
 }) => {
   const [customAnime, setCustomAnime] = useState('');
+  const [pdbQuery, setPdbQuery] = useState('');
 
   // Hot preset anime collections that the user can import instantly
   const presetHotImports = [
@@ -61,6 +64,29 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
     if (!customAnime.trim()) return;
     onImportAnime(customAnime.trim());
     setCustomAnime('');
+  };
+
+  const handlePdbImportSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!pdbQuery.trim() || !onImportPdbIds) return;
+
+    // Split input by non-digits, comma, or space to extract all numbers (profile IDs)
+    // Matches urls like: https://www.personality-database.com/profile/220268 or plain ids like 220268
+    const parsedIds = pdbQuery
+      .split(/[\s,，;；|]+/)
+      .map(part => {
+        const match = part.match(/profile\/(\d+)/i) || part.match(/pid=(\d+)/i) || part.match(/^(\d+)$/);
+        return match ? match[1] : null;
+      })
+      .filter((id): id is string => id !== null);
+
+    if (parsedIds.length === 0) {
+      alert('请检查您的输入并确保包含至少一个 PDB 档案 URL 或纯数字编号（例如 212629）！');
+      return;
+    }
+
+    onImportPdbIds(parsedIds);
+    setPdbQuery('');
   };
 
   return (
@@ -223,6 +249,35 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
               </div>
               <p className="text-[10px] text-gray-400 font-medium leading-relaxed">
                 ℹ️ 系统底层将直接通过 Gemini API 结合互联网大数据的二次元 consensus，自动分析并析出该动漫最具人气的 6 名核心主角 full information、4维心智比重、详细剧情例证、粉丝讨论争议以及成员之间的互相对冲/融合羁绊，完美形成新关系链网并编入数据库。
+              </p>
+            </form>
+
+            {/* PDB Web Scraper Form */}
+            <form onSubmit={handlePdbImportSubmit} className="space-y-3 pt-4 border-t border-dashed border-gray-200">
+              <div className="space-y-1">
+                <label className="text-xs font-black text-gray-500 uppercase flex items-center gap-1">
+                  <Database size={12} className="text-indigo-500" /> PDB 经典宿命直接导入 (PDB Web Scraper)
+                </label>
+                <div className="relative">
+                  <input
+                    type="text"
+                    disabled={loading}
+                    placeholder="输入 PDB ID (如 212629) 或 URL链接"
+                    value={pdbQuery}
+                    onChange={(e) => setPdbQuery(e.target.value)}
+                    className="w-full bg-[#FAFAFA] text-gray-900 border-2 border-[#2D3436] rounded-xl py-3 pl-3 pr-24 font-bold text-xs focus:outline-none"
+                  />
+                  <button 
+                    type="submit"
+                    disabled={loading || !pdbQuery.trim()}
+                    className="absolute right-2 top-2 bottom-2 bg-[#6C5CE7] hover:bg-indigo-700 disabled:opacity-40 text-white font-bold text-xs px-2.5 rounded-lg border border-black cursor-pointer"
+                  >
+                    Jina抓取导入
+                  </button>
+                </div>
+              </div>
+              <p className="text-[10px] text-gray-400 font-medium leading-relaxed">
+                ℹ️ 利用 <strong>Jina Reader API</strong> 实时解析 Personality Database。不仅抓取基础 MBTI，更支持高精度析出：四翼投票分布（Four Letter）、九型人格（Enneagram）、Socionics、Big 5 并在本地 /data/pdb 建立本地二级缓存以避免重复握手。
               </p>
             </form>
 

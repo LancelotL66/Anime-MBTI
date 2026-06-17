@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
 import { charDb } from './server/db';
+import { scrapeCharacterWithJina, scrapeMultipleProfiles } from './server/pdbImporter';
 
 async function startServer() {
   const app = express();
@@ -109,6 +110,37 @@ async function startServer() {
     } catch (e: any) {
       console.error(`Personalize Error for character ID: ${id}`, e);
       res.status(500).json({ success: false, error: e.message || 'AI 个性化定制生成失败，请稍后重试' });
+    }
+  });
+
+  // 7. PDB Jina Scraper endpoint
+  app.post('/api/database/import-pdb', async (req, res) => {
+    const { profileIds } = req.body;
+    if (!profileIds || !Array.isArray(profileIds) || profileIds.length === 0) {
+      return res.status(400).json({ success: false, error: '请输入有效的 PDB profile ID 数组！' });
+    }
+
+    try {
+      console.log(`[Server] API requested Jina-scraping of PDB profiles:`, profileIds);
+      const scrapedData = await scrapeMultipleProfiles(profileIds);
+      if (scrapedData.length === 0) {
+        throw new Error('未成功抓取到任何有效的 PDB 数据档案（可能是网络限流或页面不存在）。');
+      }
+
+      // Merge and save to memory database
+      const imported = charDb.importPdbData(scrapedData);
+      const stats = charDb.getStats();
+
+      res.json({
+        success: true,
+        message: `成功通过 Jina Reader 从 PDB 导入并同步了 ${imported.length} 个高拟真动漫角色档案！`,
+        characters: imported,
+        stats
+      });
+
+    } catch (e: any) {
+      console.error('[Server] PDB import endpoint error:', e);
+      res.status(500).json({ success: false, error: e.message || '抓取或解析 PDB 数据出差错，请稍后重试。' });
     }
   });
 

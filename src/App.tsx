@@ -146,6 +146,33 @@ export default function App() {
     }
   };
 
+  // Handle PDB Live Importer using Jina Reader API
+  const handleImportPdbIds = async (profileIds: string[]) => {
+    setLoading(true);
+    setLoadingMessage(`正在通过 Jina Reader 向 PDB 验证并索取 [ID: ${profileIds.join(', ')}] 的四维度投票比、Enneagram 与宿命关系谱...`);
+    setApiError(null);
+    setApiSuccess(null);
+
+    try {
+      const res = await fetch('/api/database/import-pdb', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ profileIds })
+      }).then(r => r.json());
+
+      if (res.success) {
+        setApiSuccess(res.message);
+        await fetchBackendData();
+      } else {
+        throw new Error(res.error || 'PDB Jina Scraper request failed.');
+      }
+    } catch (e: any) {
+      setApiError(`PDB 导入出错: ${e.message || '网络瞬时失稳，请稍候重试'}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   // Handle Character Personalization on-the-fly dynamically
   const handlePersonalizeCharacter = async (charId: string) => {
     // We handle the loading state inside or globally, let's use the local visual state inside CharacterDetail for premium overlay feel, and keep App's error/success states aligned!
@@ -724,6 +751,7 @@ export default function App() {
                   stats={dbStats}
                   onScaleDb={handleScaleDatabase}
                   onImportAnime={handleImportAnime}
+                  onImportPdbIds={handleImportPdbIds}
                   loading={loading}
                   loadingMessage={loadingMessage}
                   error={apiError}
