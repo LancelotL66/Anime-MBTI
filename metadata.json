@@ -1,0 +1,6 @@
+{
+  "name": "动漫角色性格手册",
+  "description": "查看以及搜索知名动漫角色的 MBTI 性格解析、人际关系与契合度匹配，支持个人收藏及趣味动漫性格测试。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
