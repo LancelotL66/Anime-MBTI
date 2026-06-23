@@ -16,7 +16,8 @@ import {
   Sparkles,
   Layers,
   BookOpen,
-  Users
+  Users,
+  ExternalLink
 } from 'lucide-react';
 
 interface CharacterDetailProps {
@@ -256,11 +257,23 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
                 “
               </div>
               <p className="text-sm font-mono text-gray-700 font-black tracking-wide mb-1 flex items-center gap-1.5">
-                <Flame className="text-red-500 fill-red-400" size={14} /> 名句考证 GOLDEN QUOTE:
+                <Flame className="text-red-500 fill-red-400" size={14} />
+                {character.quoteSource === 'not_provided' ? 'PDB 未提供名言:' : '名句考证 GOLDEN QUOTE:'}
               </p>
               <h3 className="text-lg sm:text-xl font-bold font-sans text-[#2D3436] leading-relaxed relative z-10">
                 「 {character.quote} ]
               </h3>
+              {character.sourceUrl && (
+                <a
+                  href={character.sourceUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-flex items-center gap-1 text-[10px] font-black text-[#2D3436] underline decoration-2 underline-offset-2 relative z-10"
+                >
+                  <ExternalLink size={12} />
+                  来源：Personality Database {character.pdbProfileId ? `#${character.pdbProfileId}` : ''}
+                </a>
+              )}
             </div>
 
             {/* Quick Summary Description */}
@@ -427,6 +440,17 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed bg-white p-3 border-2 border-[#2D3436] rounded-xl shadow-[3px_3px_0px_0px_#2D3436]">
                     {relationship.description}
                   </p>
+                  {relationship.sourceUrl && (
+                    <a
+                      href={relationship.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-[10px] font-black text-indigo-600 underline underline-offset-2 inline-flex items-center gap-1"
+                    >
+                      <ExternalLink size={11} />
+                      PDB Related Profile source
+                    </a>
+                  )}
 
                   <div className="flex justify-end">
                     <button

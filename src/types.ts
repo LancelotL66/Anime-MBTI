@@ -42,6 +42,10 @@ export interface Character {
     perfect: MBTIType[];
     good: MBTIType[];
   };
+  source?: 'pdb' | 'manual' | 'ai_assisted';
+  sourceUrl?: string;
+  pdbProfileId?: string;
+  quoteSource?: 'pdb' | 'not_provided' | 'manual' | 'ai_assisted';
 }
 
 export interface Relationship {
@@ -51,6 +55,8 @@ export interface Relationship {
   relationLabel: string; // e.g. 宿命死敌, 挚友, 妹妹
   compatibilityScore: number; // 0-100
   description: string;
+  source?: 'pdb_related_profile' | 'manual' | 'ai_assisted' | 'derived';
+  sourceUrl?: string;
 }
 
 export interface TestQuestion {

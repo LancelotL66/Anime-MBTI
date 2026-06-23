@@ -1,5 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
+import dotenv from 'dotenv';
 import { MBTIType, Character, Relationship } from "../src/types";
+
+dotenv.config({ path: '.env.local' });
+dotenv.config();
 
 // Server-side initialization of Gemini client
 const apiKey = process.env.GEMINI_API_KEY;

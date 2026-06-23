@@ -1,8 +1,12 @@
 import express from 'express';
 import path from 'path';
 import { createServer as createViteServer } from 'vite';
+import dotenv from 'dotenv';
 import { charDb } from './server/db';
-import { scrapeCharacterWithJina, scrapeMultipleProfiles } from './server/pdbImporter';
+import { PdbScrapedData, scrapeCharacterWithJina, scrapeMultipleProfiles } from './server/pdbImporter';
+
+dotenv.config({ path: '.env.local' });
+dotenv.config();
 
 async function startServer() {
   const app = express();
@@ -115,14 +119,33 @@ async function startServer() {
 
   // 7. PDB Jina Scraper endpoint
   app.post('/api/database/import-pdb', async (req, res) => {
-    const { profileIds } = req.body;
+    const { profileIds, includeRelated = false, relatedDepth = 0, forceRefresh = false } = req.body;
     if (!profileIds || !Array.isArray(profileIds) || profileIds.length === 0) {
       return res.status(400).json({ success: false, error: '请输入有效的 PDB profile ID 数组！' });
     }
 
     try {
-      console.log(`[Server] API requested Jina-scraping of PDB profiles:`, profileIds);
-      const scrapedData = await scrapeMultipleProfiles(profileIds);
+      const initialIds = Array.from(new Set(profileIds.map((id: unknown) => String(id).trim()).filter(Boolean)));
+      const maxDepth = includeRelated ? Math.min(Math.max(Number(relatedDepth) || 1, 1), 2) : 0;
+      const seenIds = new Set<string>();
+      const scrapedData: PdbScrapedData[] = [];
+      let frontier = initialIds;
+
+      console.log(`[Server] API requested PDB import:`, { initialIds, includeRelated, maxDepth, forceRefresh });
+
+      for (let depth = 0; depth <= maxDepth && frontier.length > 0; depth++) {
+        const batchIds = frontier.filter(id => !seenIds.has(id));
+        batchIds.forEach(id => seenIds.add(id));
+        if (batchIds.length === 0) break;
+
+        const batch = await scrapeMultipleProfiles(batchIds, { forceRefresh: Boolean(forceRefresh), delayMs: 3000 });
+        scrapedData.push(...batch);
+
+        frontier = includeRelated
+          ? batch.flatMap(item => item.relatedProfiles?.map(profile => profile.pdbProfileId) || [])
+          : [];
+      }
+
       if (scrapedData.length === 0) {
         throw new Error('未成功抓取到任何有效的 PDB 数据档案（可能是网络限流或页面不存在）。');
       }
@@ -133,14 +156,50 @@ async function startServer() {
 
       res.json({
         success: true,
-        message: `成功通过 Jina Reader 从 PDB 导入并同步了 ${imported.length} 个高拟真动漫角色档案！`,
+        message: `成功通过 Jina Reader 从 PDB 导入并同步了 ${imported.length} 个可追溯角色档案！`,
         characters: imported,
+        importedCount: imported.length,
+        requestedCount: seenIds.size,
         stats
       });
 
     } catch (e: any) {
       console.error('[Server] PDB import endpoint error:', e);
       res.status(500).json({ success: false, error: e.message || '抓取或解析 PDB 数据出差错，请稍后重试。' });
+    }
+  });
+
+  // 8. Refresh all verified PDB records already present in the local database
+  app.post('/api/database/sync-pdb', async (req, res) => {
+    const { forceRefresh = true, limit } = req.body || {};
+
+    try {
+      const allIds = charDb.getPdbProfileIds();
+      const selectedIds = typeof limit === 'number' && limit > 0 ? allIds.slice(0, limit) : allIds;
+
+      if (selectedIds.length === 0) {
+        return res.json({
+          success: true,
+          message: '当前数据库还没有已验证的 PDB 档案可同步。',
+          syncedCount: 0,
+          stats: charDb.getStats()
+        });
+      }
+
+      console.log(`[Server] Syncing verified PDB profiles:`, { count: selectedIds.length, forceRefresh });
+      const scrapedData = await scrapeMultipleProfiles(selectedIds, { forceRefresh: Boolean(forceRefresh), delayMs: 3000 });
+      const imported = charDb.importPdbData(scrapedData);
+      const stats = charDb.getStats();
+
+      res.json({
+        success: true,
+        message: `已同步 ${imported.length} 个 PDB verified 档案。`,
+        syncedCount: imported.length,
+        stats
+      });
+    } catch (e: any) {
+      console.error('[Server] PDB sync endpoint error:', e);
+      res.status(500).json({ success: false, error: e.message || '同步 PDB 数据出错，请稍后重试。' });
     }
   });
 

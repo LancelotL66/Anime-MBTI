@@ -1,13 +1,15 @@
 import fs from 'fs';
 import path from 'path';
-import { ai } from './geminiService';
-import { Type } from '@google/genai';
-import { MBTIType } from '../src/types';
-import { CharacterBase, CharacterTyping, CharacterProfile } from './db';
+import { MBTIType, DimensionScore } from '../src/types';
 
 const CACHE_FILE = path.join(process.cwd(), 'data', 'pdb', 'characters.jsonl');
+const MBTI_TYPES = new Set<MBTIType>([
+  'INTJ', 'INTP', 'ENTJ', 'ENTP',
+  'INFJ', 'INFP', 'ENFJ', 'ENFP',
+  'ISTJ', 'ISFJ', 'ESTJ', 'ESFJ',
+  'ISTP', 'ISFP', 'ESTP', 'ESFP'
+]);
 
-// Helper to ensure cache directory exists
 function ensureCacheDir() {
   const dir = path.dirname(CACHE_FILE);
   if (!fs.existsSync(dir)) {
@@ -15,11 +17,16 @@ function ensureCacheDir() {
   }
 }
 
-// Ensure the directory exists
 ensureCacheDir();
 
-// Implement delay helper
 const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
+
+export interface PdbRelatedProfile {
+  pdbProfileId: string;
+  name: string;
+  anime?: string;
+  sourceUrl: string;
+}
 
 export interface PdbScrapedData {
   pdbProfileId: string;
@@ -29,27 +36,22 @@ export interface PdbScrapedData {
   mbti: MBTIType;
   enneagram?: string;
   votesCount: number;
-  voteBreakdown?: {
-    E: number;
-    N: number;
-    T: number;
-    P: number;
-  };
+  voteBreakdown?: DimensionScore;
+  cognitiveFunctions?: string[];
   socionics?: string;
   bigFive?: string;
   summary?: string;
   quote?: string;
+  relatedProfiles: PdbRelatedProfile[];
   sourceUrl: string;
+  retrievedVia: 'jina_reader';
   updatedAt: string;
 }
 
-/**
- * Read local PDB JSONL cache
- */
 export function readPdbCache(): PdbScrapedData[] {
   ensureCacheDir();
   if (!fs.existsSync(CACHE_FILE)) return [];
-  
+
   try {
     const raw = fs.readFileSync(CACHE_FILE, 'utf8');
     return raw
@@ -58,7 +60,7 @@ export function readPdbCache(): PdbScrapedData[] {
       .map(line => {
         try {
           return JSON.parse(line) as PdbScrapedData;
-        } catch(e) {
+        } catch {
           return null;
         }
       })
@@ -69,48 +71,151 @@ export function readPdbCache(): PdbScrapedData[] {
   }
 }
 
-/**
- * Save / append a single page or roster to the local jsonl cache
- */
 export function writePdbCache(items: PdbScrapedData[]) {
   ensureCacheDir();
-  
-  // Load existing items first to avoid exact duplicates
+
   const existing = readPdbCache();
   const existingMap = new Map(existing.map(e => [e.pdbProfileId, e]));
-  
-  items.forEach(item => {
-    existingMap.set(item.pdbProfileId, item);
-  });
+  items.forEach(item => existingMap.set(item.pdbProfileId, item));
 
   const lines = Array.from(existingMap.values())
     .map(item => JSON.stringify(item))
     .join('\n') + '\n';
-    
+
   fs.writeFileSync(CACHE_FILE, lines, 'utf8');
 }
 
-/**
- * Fetch a profile page from Personality Database via Jina Reader, parse with Gemini
- */
-export async function scrapeCharacterWithJina(profileId: string): Promise<PdbScrapedData | null> {
-  // Check cache first to avoid redundant Jina requests
+function normalizeWhitespace(value: string): string {
+  return value.replace(/\s+/g, ' ').trim();
+}
+
+function parseMbti(value: string | undefined): MBTIType | null {
+  if (!value) return null;
+  const upper = value.toUpperCase() as MBTIType;
+  return MBTI_TYPES.has(upper) ? upper : null;
+}
+
+function extractDimension(markdownText: string, positiveLetter: 'E' | 'N' | 'T' | 'P', negativeLetter: 'I' | 'S' | 'F' | 'J'): number | undefined {
+  const positive = markdownText.match(new RegExp(`(\\d{1,3})%\\s+${positiveLetter}\\b`, 'i'));
+  if (positive) return Math.min(100, Math.max(0, Number(positive[1])));
+
+  const negative = markdownText.match(new RegExp(`(\\d{1,3})%\\s+${negativeLetter}\\b`, 'i'));
+  if (negative) return 100 - Math.min(100, Math.max(0, Number(negative[1])));
+
+  return undefined;
+}
+
+function parseVoteBreakdown(markdownText: string): DimensionScore | undefined {
+  const E = extractDimension(markdownText, 'E', 'I');
+  const N = extractDimension(markdownText, 'N', 'S');
+  const T = extractDimension(markdownText, 'T', 'F');
+  const P = extractDimension(markdownText, 'P', 'J');
+
+  if ([E, N, T, P].some(value => value === undefined)) {
+    return undefined;
+  }
+
+  return { E: E!, N: N!, T: T!, P: P! };
+}
+
+function parseRelatedProfiles(markdownText: string): PdbRelatedProfile[] {
+  const relatedSection = markdownText.split('Related Profiles')[1] || '';
+  const profiles = new Map<string, PdbRelatedProfile>();
+  const relatedRegex = /\[!\[Image\s+\d+:\s+([^\]]+)\]\([^)]+\)\s*([^\]]+?)\]\(https?:\/\/www\.personality-database\.com\/profile\/(\d+)[^)]*\)/g;
+
+  let match: RegExpExecArray | null;
+  while ((match = relatedRegex.exec(relatedSection)) !== null) {
+    const [, altText, labelText, id] = match;
+    const sourceUrl = `https://www.personality-database.com/profile/${id}`;
+    const altParts = altText.split(':').map(part => normalizeWhitespace(part)).filter(Boolean);
+    const label = normalizeWhitespace(labelText);
+    const anime = altParts.length > 1 ? altParts[0] : undefined;
+    const name = altParts.length > 1 ? altParts.slice(1).join(': ') : label.replace(/\s+/g, ' ');
+
+    profiles.set(id, {
+      pdbProfileId: id,
+      name: name || label,
+      anime,
+      sourceUrl
+    });
+  }
+
+  return Array.from(profiles.values());
+}
+
+function parsePdbMarkdown(profileId: string, sourceUrl: string, markdownText: string): PdbScrapedData {
+  const nameMatch = markdownText.match(/^#\s+(.+?)\s+Personality\s*$/m);
+  const name = normalizeWhitespace(nameMatch?.[1] || `PDB ${profileId}`);
+
+  const mbtiMatch = markdownText.match(/\bis\s+an?\s+([A-Z]{4})\b/i)
+    || markdownText.match(/Most people think\s+.+?\s+is\s+\*\*([A-Z]{4})\*\*/i)
+    || markdownText.match(/Four Letter\s+\d+\s+Votes\s+[\s\S]{0,80}\b([A-Z]{4})\(\d+\)/i);
+  const mbti = parseMbti(mbtiMatch?.[1]);
+  if (!mbti) {
+    throw new Error('PDB 页面中没有可验证的 MBTI 类型。');
+  }
+
+  const animeLinkMatch = markdownText.match(/\n\[([^\]]+)\]\(https?:\/\/www\.personality-database\.com\/profile\?pid=2[^)]*\)/)
+    || markdownText.match(/🎬 Works[\s\S]*?\]\([^)]+\)\s*([^\]\n]+)\]/);
+  const anime = normalizeWhitespace(animeLinkMatch?.[1] || '未知作品');
+
+  const voteCountMatch = markdownText.match(/Four Letter\s+(\d+)\s+Votes/i)
+    || markdownText.match(/(\d+)\s+Votes\s+Vote\s*\/\s*Comment/i);
+  const votesCount = voteCountMatch ? Number(voteCountMatch[1]) : 0;
+
+  const summaryMatch = markdownText.match(new RegExp(`##\\s+${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s+MBTI\\s+([\\s\\S]*?)(?:Added by|Report Last Update|Four Letter|🎬 Works)`, 'i'));
+  const rawSummary = summaryMatch?.[1] || '';
+  const summary = rawSummary
+    ? normalizeWhitespace(rawSummary.replace(/\[[^\]]+\]\([^)]+\)/g, ''))
+    : undefined;
+
+  const updatedAtMatch = markdownText.match(/Report Last Update:\s*([0-9-]+)/i);
+  const enneagramMatch = markdownText.match(/\bEnneagram\s+([0-9]w[0-9])\b/i);
+  const socionicsMatch = markdownText.match(/\bSocionics\s+([A-Z]{3})\b/i);
+  const bigFiveMatch = markdownText.match(/\bBig\s*5\s+([A-Z]{5})\b/i);
+  const functions = Array.from(markdownText.matchAll(/\b(Dom|Aux|Tert|Inf)\s+([A-Z][a-z])\b/g)).map(match => `${match[1]} ${match[2]}`);
+
+  return {
+    pdbProfileId: profileId,
+    nameCn: name,
+    anime,
+    mbti,
+    enneagram: enneagramMatch?.[1],
+    votesCount,
+    voteBreakdown: parseVoteBreakdown(markdownText),
+    cognitiveFunctions: functions,
+    socionics: socionicsMatch?.[1],
+    bigFive: bigFiveMatch?.[1],
+    summary,
+    relatedProfiles: parseRelatedProfiles(markdownText),
+    sourceUrl,
+    retrievedVia: 'jina_reader',
+    updatedAt: updatedAtMatch?.[1] ? new Date(updatedAtMatch[1]).toISOString() : new Date().toISOString()
+  };
+}
+
+export interface PdbScrapeOptions {
+  forceRefresh?: boolean;
+  delayMs?: number;
+}
+
+export async function scrapeCharacterWithJina(profileId: string, forceRefresh = false): Promise<PdbScrapedData | null> {
   const cached = readPdbCache().find(c => c.pdbProfileId === profileId);
-  if (cached) {
+  if (cached && !forceRefresh) {
     console.log(`[PDB Importer] Using cached record for profile ${profileId}`);
     return cached;
   }
 
   const sourceUrl = `https://www.personality-database.com/profile/${profileId}`;
-  const jinaUrl = `https://r.jina.ai/${sourceUrl}`;
-  
+  const jinaUrl = `https://r.jina.ai/http://https://www.personality-database.com/profile/${profileId}`;
+
   console.log(`[PDB Importer] Fetching profile via Jina Reader: ${jinaUrl}`);
-  
+
   try {
     const res = await fetch(jinaUrl, {
       headers: {
         'Accept': 'text/plain',
-        'User-Agent': 'Mozilla/5.0'
+        'User-Agent': 'Anime-MBTI-PDB-Importer/1.0'
       }
     });
 
@@ -123,125 +228,31 @@ export async function scrapeCharacterWithJina(profileId: string): Promise<PdbScr
       throw new Error('Retrieved content is too short or empty.');
     }
 
-    // Call Gemini to parse and extract structured character datums from the Markdown
-    console.log(`[PDB Importer] Parsing profile ${profileId} markdown using Gemini...`);
-    const systemInstruction = `You are a professional MBTI/PDB data parser. Extract structured entity information from the Personality Database markdown page.
-Locate the character name (Chinese preferred, fallback English), their anime or series name, their primary MBTI type (e.g., INFP, ENTJ, etc.), their Enneagram (e.g., 4w5, 8w9), their total vote counts, and four-letter voting percentages if present. Also seek Socionics (e.g., IEI, LII), Big 5 (e.g., RLOEI) if available.
-If some values aren't explicit, provide reasonable guesses or defaults.
-
-Return a strict JSON object that conforms EXACTLY to this schema:
-{
-  "nameCn": "Chinese name",
-  "nameEn": "English name (optional)",
-  "anime": "Anime series name",
-  "mbti": "INTJ/INTP/ENTJ/ENTP/INFJ/INFP/ENFJ/ENFP/ISTJ/ISFJ/ESTJ/ESFJ/ISTP/ISFP/ESTP/ESFP",
-  "enneagram": "string (optional, e.g. 5w4 or 8w9)",
-  "votesCount": 120,
-  "voteBreakdown": {
-    "E": 45,
-    "N": 80,
-    "T": 85,
-    "P": 30
-  },
-  "socionics": "string (optional, e.g. LII)",
-  "bigFive": "string (optional, e.g. RCUEN)",
-  "summary": "Short 50-word overview of their cognitive nature based on the page text",
-  "quote": "A memorable quote from the page if any"
-}`;
-
-    const geminiRes = await ai.models.generateContent({
-      model: 'gemini-3.5-flash',
-      contents: markdownText,
-      config: {
-        systemInstruction,
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            nameCn: { type: Type.STRING },
-            nameEn: { type: Type.STRING },
-            anime: { type: Type.STRING },
-            mbti: { type: Type.STRING },
-            enneagram: { type: Type.STRING },
-            votesCount: { type: Type.INTEGER },
-            voteBreakdown: {
-              type: Type.OBJECT,
-              properties: {
-                E: { type: Type.INTEGER },
-                N: { type: Type.INTEGER },
-                T: { type: Type.INTEGER },
-                P: { type: Type.INTEGER }
-              }
-            },
-            socionics: { type: Type.STRING },
-            bigFive: { type: Type.STRING },
-            summary: { type: Type.STRING },
-            quote: { type: Type.STRING }
-          },
-          required: ['nameCn', 'anime', 'mbti', 'votesCount']
-        }
-      }
-    });
-
-    const text = geminiRes.text;
-    if (!text) throw new Error('Gemini failed to output structured parsing');
-    
-    const parsedObj = JSON.parse(text);
-    
-    const parsedData: PdbScrapedData = {
-      pdbProfileId: profileId,
-      nameCn: parsedObj.nameCn || '未知角色',
-      nameEn: parsedObj.nameEn,
-      anime: parsedObj.anime || '未知番剧',
-      mbti: (parsedObj.mbti || 'INFP') as MBTIType,
-      enneagram: parsedObj.enneagram,
-      votesCount: parsedObj.votesCount || 10,
-      voteBreakdown: parsedObj.voteBreakdown || { E: 50, N: 50, T: 50, P: 50 },
-      socionics: parsedObj.socionics,
-      bigFive: parsedObj.bigFive,
-      summary: parsedObj.summary,
-      quote: parsedObj.quote,
-      sourceUrl,
-      updatedAt: new Date().toISOString()
-    };
-
-    // Save to local cache
+    const parsedData = parsePdbMarkdown(profileId, sourceUrl, markdownText);
     writePdbCache([parsedData]);
-    console.log(`[PDB Importer] Successfully imported and cached: ${parsedData.nameCn} from ${parsedData.anime}`);
+    console.log(`[PDB Importer] Imported verified PDB fields for ${parsedData.nameCn} (${parsedData.mbti})`);
     return parsedData;
-
   } catch (error) {
     console.error(`[PDB Importer] Error parsing profile ${profileId} via Jina:`, error);
     return null;
   }
 }
 
-/**
- * Scrape multiple profiles with low frequency (3-10 sec delay)
- */
-export async function scrapeMultipleProfiles(profileIds: string[]): Promise<PdbScrapedData[]> {
+export async function scrapeMultipleProfiles(profileIds: string[], options: PdbScrapeOptions = {}): Promise<PdbScrapedData[]> {
   const results: PdbScrapedData[] = [];
-  
-  for (let i = 0; i < profileIds.length; i++) {
-    const id = profileIds[i];
-    
-    // Check local cache first before requesting
-    const cached = readPdbCache().find(c => c.pdbProfileId === id);
-    if (cached) {
-      results.push(cached);
-      continue;
-    }
+  const uniqueIds = Array.from(new Set(profileIds.map(id => String(id).trim()).filter(Boolean)));
+  const delayMs = options.delayMs ?? 3000;
 
-    const data = await scrapeCharacterWithJina(id);
+  for (let i = 0; i < uniqueIds.length; i++) {
+    const id = uniqueIds[i];
+    const data = await scrapeCharacterWithJina(id, Boolean(options.forceRefresh));
     if (data) results.push(data);
-    
-    // 3 to 10 seconds random delay between hits if there are more items to come
-    if (i < profileIds.length - 1) {
-      const waitTime = Math.floor(Math.random() * 7000) + 3000; // 3000ms - 10000ms
-      console.log(`[PDB Importer] Sleeping for ${(waitTime / 1000).toFixed(1)}s to respect server rate-limits...`);
-      await delay(waitTime);
+
+    if (i < uniqueIds.length - 1 && delayMs > 0) {
+      console.log(`[PDB Importer] Sleeping for ${(delayMs / 1000).toFixed(1)}s to respect PDB/Jina rate limits...`);
+      await delay(delayMs);
     }
   }
-  
+
   return results;
 }

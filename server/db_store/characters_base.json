@@ -1,0 +1,6354 @@
+[
+  {
+    "id": "naruto",
+    "nameCn": "漩涡鸣人",
+    "nameEn": "Naruto Uzumaki",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #F97316 0%, #FBBF24 100%)",
+    "avatarEmoji": "🍥"
+  },
+  {
+    "id": "sasuke",
+    "nameCn": "宇智波佐助",
+    "nameEn": "Sasuke Uchiha",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1E1B4B 0%, #312E81 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "luffy",
+    "nameCn": "蒙奇·D·路飞",
+    "nameEn": "Luffy",
+    "anime": "航海王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #DC2626 0%, #F87171 100%)",
+    "avatarEmoji": "👒"
+  },
+  {
+    "id": "zoro",
+    "nameCn": "罗罗诺亚·索隆",
+    "nameEn": "Roronoa Zoro",
+    "anime": "航海王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #047857 0%, #10B981 100%)",
+    "avatarEmoji": "⚔️"
+  },
+  {
+    "id": "tanjiro",
+    "nameCn": "灶门炭治郎",
+    "nameEn": "Tanjiro Kamado",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #0D9488 0%, #14B8A6 100%)",
+    "avatarEmoji": "🌊"
+  },
+  {
+    "id": "gojo",
+    "nameCn": "五条悟",
+    "nameEn": "Satoru Gojo",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1E40AF 0%, #60A5FA 100%)",
+    "avatarEmoji": "🕶️"
+  },
+  {
+    "id": "eren",
+    "nameCn": "艾伦·耶格尔",
+    "nameEn": "Eren Yeager",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #78350F 0%, #92400E 100%)",
+    "avatarEmoji": "🕊️"
+  },
+  {
+    "id": "mikasa",
+    "nameCn": "三笠·阿克曼",
+    "nameEn": "Mikasa Ackerman",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #111827 0%, #374151 100%)",
+    "avatarEmoji": "🧣"
+  },
+  {
+    "id": "light",
+    "nameCn": "夜神月",
+    "nameEn": "Light Yagami",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1F2937 0%, #7F1D1D 100%)",
+    "avatarEmoji": "📓"
+  },
+  {
+    "id": "l_lawliet",
+    "nameCn": "L",
+    "nameEn": "L Lawliet",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #4B5563 0%, #D1D5DB 100%)",
+    "avatarEmoji": "🍭"
+  },
+  {
+    "id": "chihiro",
+    "nameCn": "千寻",
+    "nameEn": "Chihiro",
+    "anime": "千与千寻",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #EC4899 0%, #F472B6 100%)",
+    "avatarEmoji": "🎒"
+  },
+  {
+    "id": "howl",
+    "nameCn": "哈尔",
+    "nameEn": "Howl",
+    "anime": "哈尔的移动城堡",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #FCD34D 0%, #10B981 100%)",
+    "avatarEmoji": "🏰"
+  },
+  {
+    "id": "bocchi",
+    "nameCn": "后藤一里",
+    "nameEn": "Hitori Gotoh",
+    "anime": "孤独摇滚！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #FF9FF3 0%, #FEC2D1 100%)",
+    "avatarEmoji": "🎸"
+  },
+  {
+    "id": "rem",
+    "nameCn": "蕾姆",
+    "nameEn": "Rem",
+    "anime": "Re:从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #60A5FA 0%, #93C5FD 100%)",
+    "avatarEmoji": "💙"
+  },
+  {
+    "id": "kakashi",
+    "nameCn": "旗木卡卡西",
+    "nameEn": "Kakashi Hatake",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #94A3B8 0%, #475569 100%)",
+    "avatarEmoji": "🥷"
+  },
+  {
+    "id": "itachi",
+    "nameCn": "宇智波鼬",
+    "nameEn": "Itachi Uchiha",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #7F1D1D 0%, #1E1B4B 100%)",
+    "avatarEmoji": "🐦"
+  },
+  {
+    "id": "gaara",
+    "nameCn": "我爱罗",
+    "nameEn": "Gaara",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #991B1B 0%, #F59E0B 100%)",
+    "avatarEmoji": "⌛"
+  },
+  {
+    "id": "shikamaru",
+    "nameCn": "奈良鹿丸",
+    "nameEn": "Shikamaru Nara",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #065F46 0%, #34D399 100%)",
+    "avatarEmoji": "♟️"
+  },
+  {
+    "id": "kita",
+    "nameCn": "喜多郁代",
+    "nameEn": "Ikuyo Kita",
+    "anime": "孤独摇滚！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #F87171 0%, #F59E0B 100%)",
+    "avatarEmoji": "☀️"
+  },
+  {
+    "id": "levi",
+    "nameCn": "利威尔·阿克曼",
+    "nameEn": "Levi Ackerman",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #475569 0%, #334155 100%)",
+    "avatarEmoji": "🧹"
+  },
+  {
+    "id": "kira_yoshikage",
+    "nameCn": "吉良吉影",
+    "nameEn": "Yoshikage Kira",
+    "anime": "JOJO的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #7C3AED 0%, #8B5CF6 100%)",
+    "avatarEmoji": "🐱"
+  },
+  {
+    "id": "makima",
+    "nameCn": "玛奇玛",
+    "nameEn": "Makima",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #7F1D1D 0%, #991B1B 100%)",
+    "avatarEmoji": "👁️"
+  },
+  {
+    "id": "shinji_ikari",
+    "nameCn": "碇真嗣",
+    "nameEn": "Shinji Ikari",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1E2937 0%, #4B5563 100%)",
+    "avatarEmoji": "🎧"
+  },
+  {
+    "id": "misato",
+    "nameCn": "葛城美里",
+    "nameEn": "Misato Katsuragi",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #4F46E5 0%, #EC4899 100%)",
+    "avatarEmoji": "🍻"
+  },
+  {
+    "id": "kaworu",
+    "nameCn": "渚薰",
+    "nameEn": "Kaworu Nagisa",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #94A3B8 0%, #CBD5E1 100%)",
+    "avatarEmoji": "🎹"
+  },
+  {
+    "id": "gendo",
+    "nameCn": "碇源堂",
+    "nameEn": "Gendo Ikari",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #111827 0%, #374151 100%)",
+    "avatarEmoji": "👓"
+  },
+  {
+    "id": "asuka",
+    "nameCn": "惣流·明日香·兰格雷",
+    "nameEn": "Asuka Langley Soryu",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #DC2626 0%, #EA580C 100%)",
+    "avatarEmoji": "🟥"
+  },
+  {
+    "id": "gintoki",
+    "nameCn": "坂田银时",
+    "nameEn": "Sakata Gintoki",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #81ECEC 0%, #74B9FF 100%)",
+    "avatarEmoji": "🍓"
+  },
+  {
+    "id": "dio",
+    "nameCn": "迪奥·布兰度",
+    "nameEn": "DIO",
+    "anime": "JOJO的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #F59E0B 0%, #D97706 100%)",
+    "avatarEmoji": "🧛"
+  },
+  {
+    "id": "conan",
+    "nameCn": "江户川柯南",
+    "nameEn": "Conan Edogawa",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1D4ED8 0%, #3B82F6 100%)",
+    "avatarEmoji": "眼镜"
+  },
+  {
+    "id": "haibara",
+    "nameCn": "灰原哀",
+    "nameEn": "Ai Haibara",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #A855F7 0%, #D8B4FE 100%)",
+    "avatarEmoji": "🧪"
+  },
+  {
+    "id": "preset_火影忍者_日向雏田",
+    "nameCn": "日向雏田",
+    "nameEn": "Hyuga Hinata",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1E1B4B 0%, #4338CA 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_火影忍者_春野樱",
+    "nameCn": "春野樱",
+    "nameEn": "Haruno Sakura",
+    "anime": "火影忍者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #F43F5E 0%, #FDA4AF 100%)",
+    "avatarEmoji": "🥊"
+  },
+  {
+    "id": "preset_航海王_妮可罗宾",
+    "nameCn": "妮可·罗宾",
+    "nameEn": "Nico Robin",
+    "anime": "航海王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #4F46E5 0%, #6366F1 100%)",
+    "avatarEmoji": "📖"
+  },
+  {
+    "id": "preset_死神bleach_黑崎一护",
+    "nameCn": "黑崎一护",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #F97316 0%, #111827 100%)",
+    "avatarEmoji": "⚔️"
+  },
+  {
+    "id": "preset_死神bleach_朽木露琪亚",
+    "nameCn": "朽木露琪亚",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #E0F2FE 0%, #38BDF8 100%)",
+    "avatarEmoji": "❄️"
+  },
+  {
+    "id": "preset_死神bleach_蓝染惣右介",
+    "nameCn": "蓝染惣右介",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #1E1B4B 0%, #5B21B6 100%)",
+    "avatarEmoji": "🦋"
+  },
+  {
+    "id": "preset_死神bleach_浦原喜助",
+    "nameCn": "浦原喜助",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_死神bleach_市丸银",
+    "nameCn": "市丸银",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_死神bleach_日番谷冬狮郎",
+    "nameCn": "日番谷冬狮郎",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_死神bleach_朽木白哉",
+    "nameCn": "朽木白哉",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_死神bleach_石田雨龙",
+    "nameCn": "石田雨龙",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_死神bleach_井上织姬",
+    "nameCn": "井上织姬",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_死神bleach_更木剑八",
+    "nameCn": "更木剑八",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_死神bleach_四枫院夜一",
+    "nameCn": "四枫院夜一",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_死神bleach_葛力姆乔",
+    "nameCn": "葛力姆乔",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_死神bleach_乌尔奇奥拉",
+    "nameCn": "乌尔奇奥拉",
+    "anime": "死神 / BLEACH",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_咒术回战_虎杖悠仁",
+    "nameCn": "虎杖悠仁",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_咒术回战_伏黑惠",
+    "nameCn": "伏黑惠",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_咒术回战_钉崎野蔷薇",
+    "nameCn": "钉崎野蔷薇",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_咒术回战_两面宿傩",
+    "nameCn": "两面宿傩",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_咒术回战_七海建人",
+    "nameCn": "七海建人",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_咒术回战_夏油杰",
+    "nameCn": "夏油杰",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_咒术回战_乙骨忧太",
+    "nameCn": "乙骨忧太",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_咒术回战_真人",
+    "nameCn": "真人",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_咒术回战_东堂葵",
+    "nameCn": "东堂葵",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_咒术回战_禅院真希",
+    "nameCn": "禅院真希",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_咒术回战_伏黑甚尔",
+    "nameCn": "伏黑甚尔",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_咒术回战_庵歌姬",
+    "nameCn": "庵歌姬",
+    "anime": "咒术回战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_鬼灭之刃_灶门祢豆子",
+    "nameCn": "灶门祢豆子",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_鬼灭之刃_我妻善逸",
+    "nameCn": "我妻善逸",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_鬼灭之刃_嘴平伊之助",
+    "nameCn": "嘴平伊之助",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_鬼灭之刃_富冈义勇",
+    "nameCn": "富冈义勇",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_鬼灭之刃_蝴蝶忍",
+    "nameCn": "蝴蝶忍",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_鬼灭之刃_炼狱杏寿郎",
+    "nameCn": "炼狱杏寿郎",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_鬼灭之刃_宇髓天元",
+    "nameCn": "宇髓天元",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_鬼灭之刃_时透无一郎",
+    "nameCn": "时透无一郎",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_鬼灭之刃_鬼舞辻无惨",
+    "nameCn": "鬼舞辻无惨",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_鬼灭之刃_甘露寺蜜璃",
+    "nameCn": "甘露寺蜜璃",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_鬼灭之刃_不死川实弥",
+    "nameCn": "不死川实弥",
+    "anime": "鬼灭之刃",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_间谍过家家_黄昏劳埃德",
+    "nameCn": "黄昏 / 劳埃德",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_约尔福杰",
+    "nameCn": "约尔·福杰",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_阿尼亚福杰",
+    "nameCn": "阿尼亚·福杰",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_间谍过家家_邦德福杰",
+    "nameCn": "邦德·福杰",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_间谍过家家_尤里布莱尔",
+    "nameCn": "尤里·布莱尔",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_夜帷费奥纳",
+    "nameCn": "夜帷 / 费奥纳",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_贝基",
+    "nameCn": "贝基",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_达米安",
+    "nameCn": "达米安",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍过家家_弗兰基",
+    "nameCn": "弗兰基",
+    "anime": "间谍过家家",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_排球少年_日向翔阳",
+    "nameCn": "日向翔阳",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_排球少年_影山飞雄",
+    "nameCn": "影山飞雄",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_排球少年_及川彻",
+    "nameCn": "及川彻",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_排球少年_孤爪研磨",
+    "nameCn": "孤爪研磨",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_排球少年_黑尾铁朗",
+    "nameCn": "黑尾铁朗",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_排球少年_木兔光太郎",
+    "nameCn": "木兔光太郎",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_排球少年_赤苇京治",
+    "nameCn": "赤苇京治",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_排球少年_牛岛若利",
+    "nameCn": "牛岛若利",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_排球少年_西谷夕",
+    "nameCn": "西谷夕",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_排球少年_月岛萤",
+    "nameCn": "月岛萤",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_排球少年_泽村大地",
+    "nameCn": "泽村大地",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_排球少年_菅原孝支",
+    "nameCn": "菅原孝支",
+    "anime": "排球少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_名侦探柯南_工藤新一",
+    "nameCn": "工藤新一",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_名侦探柯南_毛利兰",
+    "nameCn": "毛利兰",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_名侦探柯南_怪盗基德",
+    "nameCn": "怪盗基德",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_名侦探柯南_赤井秀一",
+    "nameCn": "赤井秀一",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_名侦探柯南_安室透",
+    "nameCn": "安室透",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_名侦探柯南_琴酒gin",
+    "nameCn": "琴酒 / Gin",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_名侦探柯南_服部平次",
+    "nameCn": "服部平次",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_名侦探柯南_远山和叶",
+    "nameCn": "远山和叶",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_名侦探柯南_世良真纯",
+    "nameCn": "世良真纯",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_名侦探柯南_贝尔摩德",
+    "nameCn": "贝尔摩德",
+    "anime": "名侦探柯南",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_命运石之门_冈部伦太郎",
+    "nameCn": "冈部伦太郎",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_命运石之门_牧濑红莉栖",
+    "nameCn": "牧濑红莉栖",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_命运石之门_椎名真由理",
+    "nameCn": "椎名真由理",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_命运石之门_桥田至",
+    "nameCn": "桥田至",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_命运石之门_阿万音铃羽",
+    "nameCn": "阿万音铃羽",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_命运石之门_漆原琉华",
+    "nameCn": "漆原琉华",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_命运石之门_菲利斯",
+    "nameCn": "菲利斯",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_命运石之门_桐生萌郁",
+    "nameCn": "桐生萌郁",
+    "anime": "命运石之门",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_钟离",
+    "nameCn": "钟离",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_雷电将军",
+    "nameCn": "雷电将军",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_芙宁娜",
+    "nameCn": "芙宁娜",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_原神_纳西妲",
+    "nameCn": "纳西妲",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_原神_温迪",
+    "nameCn": "温迪",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_原神_八重神子",
+    "nameCn": "八重神子",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_原神_魈",
+    "nameCn": "魈",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_原神_流浪者",
+    "nameCn": "流浪者",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_原神_神里绫华",
+    "nameCn": "神里绫华",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_迪卢克",
+    "nameCn": "迪卢克",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_原神_胡桃",
+    "nameCn": "胡桃",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_原神_达达利亚",
+    "nameCn": "达达利亚",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_原神_派蒙",
+    "nameCn": "派蒙",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_原神_那维莱特",
+    "nameCn": "那维莱特",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_克洛琳德",
+    "nameCn": "克洛琳德",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_原神_阿蕾奇诺仆人",
+    "nameCn": "阿蕾奇诺 / 仆人",
+    "anime": "原神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_卡芙卡",
+    "nameCn": "卡芙卡",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_刃",
+    "nameCn": "刃",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_银狼",
+    "nameCn": "银狼",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_景元",
+    "nameCn": "景元",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_丹恒",
+    "nameCn": "丹恒",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_三月七",
+    "nameCn": "三月七",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_开拓者",
+    "nameCn": "开拓者",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_真理医生",
+    "nameCn": "真理医生",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_砂金",
+    "nameCn": "砂金",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_符玄",
+    "nameCn": "符玄",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_黑天鹅",
+    "nameCn": "黑天鹅",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_黄泉",
+    "nameCn": "黄泉",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_阮梅",
+    "nameCn": "阮·梅",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_知更鸟",
+    "nameCn": "知更鸟",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_崩坏星穹铁道_流萤",
+    "nameCn": "流萤",
+    "anime": "崩坏：星穹铁道",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_阿尔萨斯",
+    "nameCn": "阿尔萨斯",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_希尔瓦娜斯",
+    "nameCn": "希尔瓦娜斯",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_萨尔",
+    "nameCn": "萨尔",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_吉安娜",
+    "nameCn": "吉安娜",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_伊利丹",
+    "nameCn": "伊利丹",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_玛法里奥",
+    "nameCn": "玛法里奥",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_泰兰德",
+    "nameCn": "泰兰德",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔兽世界艾泽拉斯_卡德加",
+    "nameCn": "卡德加",
+    "anime": "魔兽世界 / 艾泽拉斯",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_灌篮高手_樱木花道",
+    "nameCn": "樱木花道",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_灌篮高手_流川枫",
+    "nameCn": "流川枫",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_灌篮高手_赤木刚宪",
+    "nameCn": "赤木刚宪",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_灌篮高手_三井寿",
+    "nameCn": "三井寿",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_灌篮高手_宫城良田",
+    "nameCn": "宫城良田",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_灌篮高手_安西教练",
+    "nameCn": "安西教练",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_灌篮高手_仙道彰",
+    "nameCn": "仙道彰",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_灌篮高手_藤真健司",
+    "nameCn": "藤真健司",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_灌篮高手_牧绅一",
+    "nameCn": "牧绅一",
+    "anime": "灌篮高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏3_琪亚娜",
+    "nameCn": "琪亚娜",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_崩坏3_芽衣",
+    "nameCn": "芽衣",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_崩坏3_布洛妮娅",
+    "nameCn": "布洛妮娅",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_崩坏3_姬子",
+    "nameCn": "姬子",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_崩坏3_符华",
+    "nameCn": "符华",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_崩坏3_德丽莎",
+    "nameCn": "德丽莎",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_崩坏3_爱莉希雅",
+    "nameCn": "爱莉希雅",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_崩坏3_维尔薇",
+    "nameCn": "维尔薇",
+    "anime": "崩坏3",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_金克丝",
+    "nameCn": "金克丝",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_蔚",
+    "nameCn": "蔚",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_杰斯",
+    "nameCn": "杰斯",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_维克托",
+    "nameCn": "维克托",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_凯特琳",
+    "nameCn": "凯特琳",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_艾克",
+    "nameCn": "艾克",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_希尔科",
+    "nameCn": "希尔科",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_英雄联盟双城之战_范德尔",
+    "nameCn": "范德尔",
+    "anime": "英雄联盟 / 双城之战",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_空条承太郎",
+    "nameCn": "空条承太郎",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_迪奥布兰度",
+    "nameCn": "迪奥·布兰度",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_乔纳森乔斯达",
+    "nameCn": "乔纳森·乔斯达",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_乔瑟夫乔斯达",
+    "nameCn": "乔瑟夫·乔斯达",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_东方仗助",
+    "nameCn": "东方仗助",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_吉良吉影",
+    "nameCn": "吉良吉影",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_空条徐伦",
+    "nameCn": "空条徐伦",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_布加拉提",
+    "nameCn": "布加拉提",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_乔鲁诺",
+    "nameCn": "乔鲁诺",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_花京院典明",
+    "nameCn": "花京院典明",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_jojo的奇妙冒险_简皮耶尔",
+    "nameCn": "简·皮耶尔",
+    "anime": "Jojo的奇妙冒险",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_刀剑神域_桐谷和人桐人",
+    "nameCn": "桐谷和人 / 桐人",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_刀剑神域_结城明日奈亚丝娜",
+    "nameCn": "结城明日奈 / 亚丝娜",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_刀剑神域_诗乃",
+    "nameCn": "诗乃",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_刀剑神域_优纪",
+    "nameCn": "优纪",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_刀剑神域_莉法",
+    "nameCn": "莉法",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_刀剑神域_克莱因",
+    "nameCn": "克莱因",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_刀剑神域_西莉卡",
+    "nameCn": "西莉卡",
+    "anime": "刀剑神域",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_一拳超人_埼玉",
+    "nameCn": "埼玉",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_一拳超人_杰诺斯",
+    "nameCn": "杰诺斯",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_一拳超人_战栗的龙卷",
+    "nameCn": "战栗的龙卷",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_一拳超人_地狱的吹雪",
+    "nameCn": "地狱的吹雪",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_一拳超人_无证骑士",
+    "nameCn": "无证骑士",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_一拳超人_音速的索尼克",
+    "nameCn": "音速的索尼克",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_一拳超人_邦古",
+    "nameCn": "邦古",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_一拳超人_饿狼",
+    "nameCn": "饿狼",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_一拳超人_king",
+    "nameCn": "KING",
+    "anime": "一拳超人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_文豪野犬_中岛敦",
+    "nameCn": "中岛敦",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_文豪野犬_太宰治",
+    "nameCn": "太宰治",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_文豪野犬_芥川龙之介",
+    "nameCn": "芥川龙之介",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_文豪野犬_中原中也",
+    "nameCn": "中原中也",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_文豪野犬_江户川乱步",
+    "nameCn": "江户川乱步",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_文豪野犬_国木田独步",
+    "nameCn": "国木田独步",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_文豪野犬_森鸥外",
+    "nameCn": "森鸥外",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_文豪野犬_福泽谕吉",
+    "nameCn": "福泽谕吉",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_文豪野犬_泉镜花",
+    "nameCn": "泉镜花",
+    "anime": "文豪野犬",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_暗杀教室_杀老师",
+    "nameCn": "杀老师",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_暗杀教室_潮田渚",
+    "nameCn": "潮田渚",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_暗杀教室_赤羽业",
+    "nameCn": "赤羽业",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_暗杀教室_茅野枫",
+    "nameCn": "茅野枫",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_暗杀教室_乌间惟臣",
+    "nameCn": "乌间惟臣",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_暗杀教室_伊莉娜",
+    "nameCn": "伊莉娜",
+    "anime": "暗杀教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_东京喰种_金木研",
+    "nameCn": "金木研",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_东京喰种_雾嶋董香",
+    "nameCn": "雾嶋董香",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_东京喰种_神代利世",
+    "nameCn": "神代利世",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_东京喰种_月山习",
+    "nameCn": "月山习",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_东京喰种_有马贵将",
+    "nameCn": "有马贵将",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_东京喰种_铃屋什造",
+    "nameCn": "铃屋什造",
+    "anime": "东京喰种",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_紫罗兰永恒花园_薇尔莉特",
+    "nameCn": "薇尔莉特",
+    "anime": "紫罗兰永恒花园",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_紫罗兰永恒花园_基尔伯特",
+    "nameCn": "基尔伯特",
+    "anime": "紫罗兰永恒花园",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_紫罗兰永恒花园_霍金斯",
+    "nameCn": "霍金斯",
+    "anime": "紫罗兰永恒花园",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_紫罗兰永恒花园_嘉德丽雅",
+    "nameCn": "嘉德丽雅",
+    "anime": "紫罗兰永恒花园",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_紫罗兰永恒花园_贝内迪克特",
+    "nameCn": "贝内迪克特",
+    "anime": "紫罗兰永恒花园",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_电锯人_电次",
+    "nameCn": "电次",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_电锯人_帕瓦",
+    "nameCn": "帕瓦",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_电锯人_早川秋",
+    "nameCn": "早川秋",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_电锯人_姬野",
+    "nameCn": "姬野",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_电锯人_岸边",
+    "nameCn": "岸边",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_电锯人_蕾塞",
+    "nameCn": "蕾塞",
+    "anime": "电锯人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_路人超能100_影山茂夫龙套",
+    "nameCn": "影山茂夫 / 龙套",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_路人超能100_灵幻新隆",
+    "nameCn": "灵幻新隆",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_路人超能100_小酒窝",
+    "nameCn": "小酒窝",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_路人超能100_律",
+    "nameCn": "律",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_路人超能100_花泽辉气",
+    "nameCn": "花泽辉气",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_路人超能100_芹泽克也",
+    "nameCn": "芹泽克也",
+    "anime": "路人超能100",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_迷宫饭_莱欧斯",
+    "nameCn": "莱欧斯",
+    "anime": "迷宫饭",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_迷宫饭_玛露西尔",
+    "nameCn": "玛露西尔",
+    "anime": "迷宫饭",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_迷宫饭_齐尔查克",
+    "nameCn": "齐尔查克",
+    "anime": "迷宫饭",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_迷宫饭_扇森",
+    "nameCn": "扇森",
+    "anime": "迷宫饭",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_迷宫饭_法琳",
+    "nameCn": "法琳",
+    "anime": "迷宫饭",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_孤独摇滚_山田凉",
+    "nameCn": "山田凉",
+    "anime": "孤独摇滚！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_孤独摇滚_伊地知虹夏",
+    "nameCn": "伊地知虹夏",
+    "anime": "孤独摇滚！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_孤独摇滚_广井菊里",
+    "nameCn": "广井菊里",
+    "anime": "孤独摇滚！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_芙莉莲",
+    "nameCn": "芙莉莲",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_欣梅尔",
+    "nameCn": "欣梅尔",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_菲伦",
+    "nameCn": "菲伦",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_修塔尔克",
+    "nameCn": "修塔尔克",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_艾冉",
+    "nameCn": "艾冉",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_海塔",
+    "nameCn": "海塔",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_尤贝尔",
+    "nameCn": "尤贝尔",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_赞恩",
+    "nameCn": "赞恩",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_葬送的芙莉莲_弗兰梅",
+    "nameCn": "弗兰梅",
+    "anime": "葬送的芙莉莲",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_赛博朋克边缘行者_大卫马丁内斯",
+    "nameCn": "大卫·马丁内斯",
+    "anime": "赛博朋克：边缘行者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_赛博朋克边缘行者_露西",
+    "nameCn": "露西",
+    "anime": "赛博朋克：边缘行者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_赛博朋克边缘行者_丽贝卡",
+    "nameCn": "丽贝卡",
+    "anime": "赛博朋克：边缘行者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_赛博朋克边缘行者_曼恩",
+    "nameCn": "曼恩",
+    "anime": "赛博朋克：边缘行者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_赛博朋克边缘行者_法尔科",
+    "nameCn": "法尔科",
+    "anime": "赛博朋克：边缘行者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_进击的巨人_阿尔敏",
+    "nameCn": "阿尔敏",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_进击的巨人_利威尔",
+    "nameCn": "利威尔",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_进击的巨人_埃尔文",
+    "nameCn": "埃尔文",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_进击的巨人_莱纳",
+    "nameCn": "莱纳",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_进击的巨人_吉克",
+    "nameCn": "吉克",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_进击的巨人_萨莎",
+    "nameCn": "萨莎",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_进击的巨人_让",
+    "nameCn": "让",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_进击的巨人_韩吉",
+    "nameCn": "韩吉",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_进击的巨人_康尼",
+    "nameCn": "康尼",
+    "anime": "进击的巨人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_银魂_志村新八",
+    "nameCn": "志村新八",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_银魂_神乐",
+    "nameCn": "神乐",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_银魂_土方十四郎",
+    "nameCn": "土方十四郎",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_银魂_冲田总悟",
+    "nameCn": "冲田总悟",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_银魂_桂小太郎",
+    "nameCn": "桂小太郎",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_银魂_高杉晋助",
+    "nameCn": "高杉晋助",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_银魂_神威",
+    "nameCn": "神威",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_银魂_近藤勋",
+    "nameCn": "近藤勋",
+    "anime": "银魂",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_死亡笔记_l赖特",
+    "nameCn": "L·赖特",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_死亡笔记_弥海砂",
+    "nameCn": "弥海砂",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_死亡笔记_魅上照",
+    "nameCn": "魅上照",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_死亡笔记_尼亚",
+    "nameCn": "尼亚",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_死亡笔记_米洛",
+    "nameCn": "米洛",
+    "anime": "死亡笔记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_斩赤红之瞳_塔兹米",
+    "nameCn": "塔兹米",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_斩赤红之瞳_赤瞳",
+    "nameCn": "赤瞳",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_斩赤红之瞳_玛茵",
+    "nameCn": "玛茵",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_斩赤红之瞳_雷欧奈",
+    "nameCn": "雷欧奈",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_斩赤红之瞳_希尔",
+    "nameCn": "希尔",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_斩赤红之瞳_艾斯德斯",
+    "nameCn": "艾斯德斯",
+    "anime": "斩！赤红之瞳",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_菜月昴",
+    "nameCn": "菜月昴",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_雷姆",
+    "nameCn": "雷姆",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_拉姆",
+    "nameCn": "拉姆",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_爱蜜莉雅",
+    "nameCn": "爱蜜莉雅",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_贝蒂",
+    "nameCn": "贝蒂",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_罗兹瓦尔",
+    "nameCn": "罗兹瓦尔",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_菲利克斯",
+    "nameCn": "菲利克斯",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_强欲魔女艾姬多娜",
+    "nameCn": "强欲魔女 / 艾姬多娜",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_从零开始的异世界生活_尤里乌斯",
+    "nameCn": "尤里乌斯",
+    "anime": "从零开始的异世界生活",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_妖精的尾巴_纳兹",
+    "nameCn": "纳兹",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_妖精的尾巴_露西",
+    "nameCn": "露西",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_妖精的尾巴_格雷",
+    "nameCn": "格雷",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_妖精的尾巴_艾露莎",
+    "nameCn": "艾露莎",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_妖精的尾巴_哈比",
+    "nameCn": "哈比",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_妖精的尾巴_温蒂",
+    "nameCn": "温蒂",
+    "anime": "妖精的尾巴",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_青之驱魔师_奥村燐",
+    "nameCn": "奥村燐",
+    "anime": "青之驱魔师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_青之驱魔师_奥村雪男",
+    "nameCn": "奥村雪男",
+    "anime": "青之驱魔师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_青之驱魔师_杜山诗惠美",
+    "nameCn": "杜山诗惠美",
+    "anime": "青之驱魔师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_青之驱魔师_梅菲斯特",
+    "nameCn": "梅菲斯特",
+    "anime": "青之驱魔师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_家庭教师reborn_泽田纲吉",
+    "nameCn": "泽田纲吉",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_家庭教师reborn_里包恩",
+    "nameCn": "里包恩",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_家庭教师reborn_狱寺隼人",
+    "nameCn": "狱寺隼人",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_家庭教师reborn_山本武",
+    "nameCn": "山本武",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_家庭教师reborn_云雀恭弥",
+    "nameCn": "云雀恭弥",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_家庭教师reborn_六道骸",
+    "nameCn": "六道骸",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_家庭教师reborn_xanxus",
+    "nameCn": "XANXUS",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_家庭教师reborn_斯库瓦罗",
+    "nameCn": "斯库瓦罗",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_家庭教师reborn_库洛姆",
+    "nameCn": "库洛姆",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_家庭教师reborn_笹川了平",
+    "nameCn": "笹川了平",
+    "anime": "家庭教师ヒットマンREBORN!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑子的篮球_黑子哲也",
+    "nameCn": "黑子哲也",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_黑子的篮球_火神大我",
+    "nameCn": "火神大我",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑子的篮球_黄濑凉太",
+    "nameCn": "黄濑凉太",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑子的篮球_绿间真太郎",
+    "nameCn": "绿间真太郎",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_黑子的篮球_青峰大辉",
+    "nameCn": "青峰大辉",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑子的篮球_紫原敦",
+    "nameCn": "紫原敦",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑子的篮球_赤司征千郎",
+    "nameCn": "赤司征千郎",
+    "anime": "黑子的篮球",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_刀剑乱舞_三日月宗近",
+    "nameCn": "三日月宗近",
+    "anime": "刀剑乱舞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_刀剑乱舞_加州清光",
+    "nameCn": "加州清光",
+    "anime": "刀剑乱舞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_刀剑乱舞_大和守安定",
+    "nameCn": "大和守安定",
+    "anime": "刀剑乱舞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_刀剑乱舞_鹤丸国永",
+    "nameCn": "鹤丸国永",
+    "anime": "刀剑乱舞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_四宫辉夜",
+    "nameCn": "四宫辉夜",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_白银御行",
+    "nameCn": "白银御行",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_藤原千花",
+    "nameCn": "藤原千花",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_石上优",
+    "nameCn": "石上优",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_伊井野弥子",
+    "nameCn": "伊井野弥子",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_辉夜大小姐想让我告白_早坂爱",
+    "nameCn": "早坂爱",
+    "anime": "辉夜大小姐想让我告白",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_全职猎人_小杰",
+    "nameCn": "小杰",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_全职猎人_奇犽",
+    "nameCn": "奇犽",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职猎人_酷拉皮卡",
+    "nameCn": "酷拉皮卡",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_全职猎人_雷欧力",
+    "nameCn": "雷欧力",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_全职猎人_西索",
+    "nameCn": "西索",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职猎人_库洛洛",
+    "nameCn": "库洛洛",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_全职猎人_飞坦",
+    "nameCn": "飞坦",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_全职猎人_伊尔迷",
+    "nameCn": "伊尔迷",
+    "anime": "全职猎人",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_犬夜叉_犬夜叉",
+    "nameCn": "犬夜叉",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_犬夜叉_日暮戈薇",
+    "nameCn": "日暮戈薇",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_犬夜叉_杀生丸",
+    "nameCn": "杀生丸",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_犬夜叉_桔梗",
+    "nameCn": "桔梗",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_犬夜叉_弥勒",
+    "nameCn": "弥勒",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_犬夜叉_珊瑚",
+    "nameCn": "珊瑚",
+    "anime": "犬夜叉",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙珠_孙悟空",
+    "nameCn": "孙悟空",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_龙珠_贝吉塔",
+    "nameCn": "贝吉塔",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙珠_孙悟饭",
+    "nameCn": "孙悟饭",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_龙珠_特兰克斯",
+    "nameCn": "特兰克斯",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙珠_比克",
+    "nameCn": "比克",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_龙珠_克林",
+    "nameCn": "克林",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_龙珠_布尔玛",
+    "nameCn": "布尔玛",
+    "anime": "龙珠",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自深渊_莉可",
+    "nameCn": "莉可",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_来自深渊_雷格",
+    "nameCn": "雷格",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_来自深渊_娜娜奇",
+    "nameCn": "娜娜奇",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自深渊_奥森",
+    "nameCn": "奥森",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自深渊_黎明卿波多尔多",
+    "nameCn": "黎明卿 / 波多尔多",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自深渊_法普妲",
+    "nameCn": "法普妲",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_来自深渊_普鲁修卡",
+    "nameCn": "普鲁修卡",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_来自深渊_玛露露库",
+    "nameCn": "玛露露库",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_来自深渊_瓦兹强",
+    "nameCn": "瓦兹强",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自深渊_贝拉芙",
+    "nameCn": "贝拉芙",
+    "anime": "来自深渊",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_齐木楠雄",
+    "nameCn": "齐木楠雄",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_燃堂力",
+    "nameCn": "燃堂力",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_海藤瞬",
+    "nameCn": "海藤瞬",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_照桥心美",
+    "nameCn": "照桥心美",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_灰吕杵志",
+    "nameCn": "灰吕杵志",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_鸟束零太",
+    "nameCn": "鸟束零太",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_梦原知予",
+    "nameCn": "梦原知予",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_洼谷须亚莲",
+    "nameCn": "洼谷须亚莲",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_相卜命",
+    "nameCn": "相卜命",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_齐木楠雄的灾难_才虎芽斗吏",
+    "nameCn": "才虎芽斗吏",
+    "anime": "齐木楠雄的灾难",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_未闻花名那朵花_面码本间芽衣子",
+    "nameCn": "面码 / 本间芽衣子",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_未闻花名那朵花_宿海仁太",
+    "nameCn": "宿海仁太",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_未闻花名那朵花_安城鸣子",
+    "nameCn": "安城鸣子",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_未闻花名那朵花_松雪集",
+    "nameCn": "松雪集",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_未闻花名那朵花_鹤见知利子",
+    "nameCn": "鹤见知利子",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_未闻花名那朵花_久川铁道",
+    "nameCn": "久川铁道",
+    "anime": "未闻花名 / 那朵花",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无职转生_鲁迪乌斯",
+    "nameCn": "鲁迪乌斯",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_无职转生_希露菲叶特",
+    "nameCn": "希露菲叶特",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_无职转生_洛琪希",
+    "nameCn": "洛琪希",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_无职转生_艾莉丝",
+    "nameCn": "艾莉丝",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无职转生_保罗",
+    "nameCn": "保罗",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无职转生_奥尔斯帝德",
+    "nameCn": "奥尔斯帝德",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_无职转生_基列奴",
+    "nameCn": "基列奴",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无职转生_瑞杰路德",
+    "nameCn": "瑞杰路德",
+    "anime": "无职转生",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_轻音少女kon_平泽唯",
+    "nameCn": "平泽唯",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_轻音少女kon_秋山澪",
+    "nameCn": "秋山澪",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_轻音少女kon_田井中律",
+    "nameCn": "田井中律",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_轻音少女kon_琴吹",
+    "nameCn": "琴吹䌷",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_轻音少女kon_中野梓",
+    "nameCn": "中野梓",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_轻音少女kon_山中佐和子",
+    "nameCn": "山中佐和子",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_轻音少女kon_平泽忧",
+    "nameCn": "平泽忧",
+    "anime": "轻音少女 / K-ON!",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_吹响吧上低音号_黄前久美子",
+    "nameCn": "黄前久美子",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_吹响吧上低音号_高坂丽奈",
+    "nameCn": "高坂丽奈",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_吹响吧上低音号_加藤叶月",
+    "nameCn": "加藤叶月",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_吹响吧上低音号_川岛绿辉",
+    "nameCn": "川岛绿辉",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_吹响吧上低音号_田中明日香",
+    "nameCn": "田中明日香",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_吹响吧上低音号_中川夏纪",
+    "nameCn": "中川夏纪",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_吹响吧上低音号_吉川优子",
+    "nameCn": "吉川优子",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_吹响吧上低音号_铠塚霙",
+    "nameCn": "铠塚霙",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_吹响吧上低音号_伞木希美",
+    "nameCn": "伞木希美",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_吹响吧上低音号_小笠原晴香",
+    "nameCn": "小笠原晴香",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_吹响吧上低音号_中世古香织",
+    "nameCn": "中世古香织",
+    "anime": "吹响吧！上低音号",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_clannad_冈崎朋也",
+    "nameCn": "冈崎朋也",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_clannad_古河渚",
+    "nameCn": "古河渚",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_clannad_藤林杏",
+    "nameCn": "藤林杏",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_clannad_藤林椋",
+    "nameCn": "藤林椋",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_clannad_坂上智代",
+    "nameCn": "坂上智代",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_clannad_一之濑琴美",
+    "nameCn": "一之濑琴美",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_clannad_春原阳平",
+    "nameCn": "春原阳平",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_clannad_古河秋生",
+    "nameCn": "古河秋生",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_clannad_古河早苗",
+    "nameCn": "古河早苗",
+    "anime": "CLANNAD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_青春猪头少年_梓川咲太",
+    "nameCn": "梓川咲太",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_青春猪头少年_樱岛麻衣",
+    "nameCn": "樱岛麻衣",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_青春猪头少年_梓川枫",
+    "nameCn": "梓川枫",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_青春猪头少年_古贺朋绘",
+    "nameCn": "古贺朋绘",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_青春猪头少年_双叶理央",
+    "nameCn": "双叶理央",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_青春猪头少年_丰浜和花",
+    "nameCn": "丰浜和花",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_青春猪头少年_牧之原翔子",
+    "nameCn": "牧之原翔子",
+    "anime": "青春猪头少年",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_比企谷八幡",
+    "nameCn": "比企谷八幡",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_雪之下雪乃",
+    "nameCn": "雪之下雪乃",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_由比滨结衣",
+    "nameCn": "由比滨结衣",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_一色伊吕波",
+    "nameCn": "一色伊吕波",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_户塚彩加",
+    "nameCn": "户塚彩加",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_平塚静",
+    "nameCn": "平塚静",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_雪之下阳乃",
+    "nameCn": "雪之下阳乃",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_比企谷小町",
+    "nameCn": "比企谷小町",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的青春恋爱物语果然有问题_叶山隼人",
+    "nameCn": "叶山隼人",
+    "anime": "我的青春恋爱物语果然有问题",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_五等分的新娘_上杉风太郎",
+    "nameCn": "上杉风太郎",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_五等分的新娘_中野一花",
+    "nameCn": "中野一花",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_五等分的新娘_中野二乃",
+    "nameCn": "中野二乃",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_五等分的新娘_中野三玖",
+    "nameCn": "中野三玖",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_五等分的新娘_中野四叶",
+    "nameCn": "中野四叶",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_五等分的新娘_中野五月",
+    "nameCn": "中野五月",
+    "anime": "五等分的新娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_四月是你的谎言_有马公生",
+    "nameCn": "有马公生",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_四月是你的谎言_宫园薰",
+    "nameCn": "宫园薰",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_四月是你的谎言_泽部椿",
+    "nameCn": "泽部椿",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_四月是你的谎言_渡亮太",
+    "nameCn": "渡亮太",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_四月是你的谎言_相座武士",
+    "nameCn": "相座武士",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_四月是你的谎言_井川绘见",
+    "nameCn": "井川绘见",
+    "anime": "四月是你的谎言",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_绫小路清隆",
+    "nameCn": "绫小路清隆",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_堀北铃音",
+    "nameCn": "堀北铃音",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_栉田桔梗",
+    "nameCn": "栉田桔梗",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_轻井泽惠",
+    "nameCn": "轻井泽惠",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_一之濑帆波",
+    "nameCn": "一之濑帆波",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_坂柳有栖",
+    "nameCn": "坂柳有栖",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_龙园翔",
+    "nameCn": "龙园翔",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_高圆寺六助",
+    "nameCn": "高圆寺六助",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_平田洋介",
+    "nameCn": "平田洋介",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_欢迎来到实力至上主义的教室_佐仓爱里",
+    "nameCn": "佐仓爱里",
+    "anime": "欢迎来到实力至上主义的教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_夏目友人帐_夏目贵志",
+    "nameCn": "夏目贵志",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_夏目友人帐_猫咪老师斑",
+    "nameCn": "猫咪老师 / 斑",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_夏目友人帐_名取周一",
+    "nameCn": "名取周一",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_夏目友人帐_田沼要",
+    "nameCn": "田沼要",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_夏目友人帐_多轨透",
+    "nameCn": "多轨透",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_夏目友人帐_的场静司",
+    "nameCn": "的场静司",
+    "anime": "夏目友人帐",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_小林家的龙女仆_小林",
+    "nameCn": "小林",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_小林家的龙女仆_托尔",
+    "nameCn": "托尔",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_小林家的龙女仆_康娜",
+    "nameCn": "康娜",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_小林家的龙女仆_艾露玛",
+    "nameCn": "艾露玛",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_小林家的龙女仆_露科亚",
+    "nameCn": "露科亚",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_小林家的龙女仆_法夫纳",
+    "nameCn": "法夫纳",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_小林家的龙女仆_才川莉子",
+    "nameCn": "才川莉子",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_小林家的龙女仆_真土翔太",
+    "nameCn": "真土翔太",
+    "anime": "小林家的龙女仆",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_工作细胞_红细胞",
+    "nameCn": "红细胞",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_工作细胞_白细胞",
+    "nameCn": "白细胞",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_工作细胞_血小板",
+    "nameCn": "血小板",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_工作细胞_杀手t细胞",
+    "nameCn": "杀手T细胞",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_工作细胞_巨噬细胞",
+    "nameCn": "巨噬细胞",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_工作细胞_辅助t细胞",
+    "nameCn": "辅助T细胞",
+    "anime": "工作细胞",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_fatezero_卫宫切嗣",
+    "nameCn": "卫宫切嗣",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_fatezero_阿尔托莉雅saber",
+    "nameCn": "阿尔托莉雅 / Saber",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatezero_爱丽丝菲尔",
+    "nameCn": "爱丽丝菲尔",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatezero_言峰绮礼",
+    "nameCn": "言峰绮礼",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatezero_吉尔伽美什",
+    "nameCn": "吉尔伽美什",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_fatezero_征服王伊斯坎达尔",
+    "nameCn": "征服王 / 伊斯坎达尔",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatezero_韦伯",
+    "nameCn": "韦伯",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatezero_迪卢木多",
+    "nameCn": "迪卢木多",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatezero_远坂时臣",
+    "nameCn": "远坂时臣",
+    "anime": "Fate/Zero",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatestaynight_卫宫士郎",
+    "nameCn": "卫宫士郎",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatestaynight_远坂凛",
+    "nameCn": "远坂凛",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatestaynight_间桐樱",
+    "nameCn": "间桐樱",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatestaynight_阿尔托莉雅saber",
+    "nameCn": "阿尔托莉雅 / Saber",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_fatestaynight_archer红a",
+    "nameCn": "Archer / 红A",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_fatestaynight_伊莉雅",
+    "nameCn": "伊莉雅",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_fatestaynight_吉尔伽美什",
+    "nameCn": "吉尔伽美什",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_fatestaynight_库丘林",
+    "nameCn": "库·丘林",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_fatestaynight_美狄亚",
+    "nameCn": "美狄亚",
+    "anime": "Fate/stay night",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_终结的炽天使_百夜优一郎",
+    "nameCn": "百夜优一郎",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_终结的炽天使_百夜米迦尔",
+    "nameCn": "百夜米迦尔",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_终结的炽天使_柊筱娅",
+    "nameCn": "柊筱娅",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_终结的炽天使_早乙女与一",
+    "nameCn": "早乙女与一",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_终结的炽天使_君月士方",
+    "nameCn": "君月士方",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_终结的炽天使_一濑红莲",
+    "nameCn": "一濑红莲",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_终结的炽天使_柊暮人",
+    "nameCn": "柊暮人",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_终结的炽天使_费里德巴特利",
+    "nameCn": "费里德·巴特利",
+    "anime": "终结的炽天使",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_野良神_夜斗",
+    "nameCn": "夜斗",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_野良神_一岐日和",
+    "nameCn": "一岐日和",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_野良神_雪音",
+    "nameCn": "雪音",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_野良神_小福",
+    "nameCn": "小福",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_野良神_昆沙门天",
+    "nameCn": "昆沙门天",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_野良神_兆麻",
+    "nameCn": "兆麻",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_野良神_野良",
+    "nameCn": "野良",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_野良神_绯音",
+    "nameCn": "绯音",
+    "anime": "野良神",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_月刊少女野崎君_野崎梅太郎",
+    "nameCn": "野崎梅太郎",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_月刊少女野崎君_佐仓千代",
+    "nameCn": "佐仓千代",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_月刊少女野崎君_御子柴实琴",
+    "nameCn": "御子柴实琴",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_月刊少女野崎君_濑尾结月",
+    "nameCn": "濑尾结月",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_月刊少女野崎君_若松博隆",
+    "nameCn": "若松博隆",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_月刊少女野崎君_鹿岛游",
+    "nameCn": "鹿岛游",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_月刊少女野崎君_堀政行",
+    "nameCn": "堀政行",
+    "anime": "月刊少女野崎君",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙与虎_高须龙儿",
+    "nameCn": "高须龙儿",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙与虎_逢坂大河",
+    "nameCn": "逢坂大河",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_龙与虎_手工艺者",
+    "nameCn": "手工艺者",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_龙与虎_栉枝实乃梨",
+    "nameCn": "栉枝实乃梨",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_龙与虎_北村祐作",
+    "nameCn": "北村祐作",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_龙与虎_川嶋亚美",
+    "nameCn": "川嶋亚美",
+    "anime": "龙与虎",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_空",
+    "nameCn": "空",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_白",
+    "nameCn": "白",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_史蒂芬妮多拉",
+    "nameCn": "史蒂芬妮·多拉",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_吉普莉尔",
+    "nameCn": "吉普莉尔",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_克拉米",
+    "nameCn": "克拉米",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_游戏人生nogamenolife_菲尔",
+    "nameCn": "菲尔",
+    "anime": "游戏人生 No Game No Life",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_科学超电磁炮_御坂美琴",
+    "nameCn": "御坂美琴",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_科学超电磁炮_上条当麻",
+    "nameCn": "上条当麻",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_科学超电磁炮_茵蒂克丝",
+    "nameCn": "茵蒂克丝",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_科学超电磁炮_一方通行",
+    "nameCn": "一方通行",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_科学超电磁炮_白井黑子",
+    "nameCn": "白井黑子",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_科学超电磁炮_佐天泪子",
+    "nameCn": "佐天泪子",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_科学超电磁炮_初春饰利",
+    "nameCn": "初春饰利",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_科学超电磁炮_食蜂操祈",
+    "nameCn": "食蜂操祈",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_科学超电磁炮_麦野沉利",
+    "nameCn": "麦野沉利",
+    "anime": "科学超电磁炮",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_先岛光",
+    "nameCn": "先岛光",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_向井户爱花",
+    "nameCn": "向井户爱花",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_比良平千咲",
+    "nameCn": "比良平千咲",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_商田",
+    "nameCn": "商田",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_伊佐木要",
+    "nameCn": "伊佐木要",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_木原纺",
+    "nameCn": "木原纺",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_潮留美海",
+    "nameCn": "潮留美海",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_来自风平浪静的明天_久沼纱由",
+    "nameCn": "久沼纱由",
+    "anime": "来自风平浪静的明天",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_声之形_石田将也",
+    "nameCn": "石田将也",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_声之形_西宫硝子",
+    "nameCn": "西宫硝子",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_声之形_西宫结弦",
+    "nameCn": "西宫结弦",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_声之形_植野直花",
+    "nameCn": "植野直花",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_声之形_佐原美代子",
+    "nameCn": "佐原美代子",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_声之形_永束友宏",
+    "nameCn": "永束友宏",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_声之形_川井美树",
+    "nameCn": "川井美树",
+    "anime": "声之形",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_黑执事_夏尔凡多姆海恩",
+    "nameCn": "夏尔·凡多姆海恩",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_黑执事_塞巴斯蒂安",
+    "nameCn": "塞巴斯蒂安",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_黑执事_红夫人",
+    "nameCn": "红夫人",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_黑执事_格雷尔",
+    "nameCn": "格雷尔",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑执事_蓝猫",
+    "nameCn": "蓝猫",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_黑执事_刘",
+    "nameCn": "刘",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_黑执事_葬仪屋",
+    "nameCn": "葬仪屋",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_黑执事_伊丽莎白",
+    "nameCn": "伊丽莎白",
+    "anime": "黑执事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_冰海战记_托尔芬",
+    "nameCn": "托尔芬",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_冰海战记_阿斯克拉特",
+    "nameCn": "阿斯克拉特",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_冰海战记_库奴特",
+    "nameCn": "库奴特",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_冰海战记_托尔兹",
+    "nameCn": "托尔兹",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_冰海战记_蛇斯内克",
+    "nameCn": "蛇 / 斯内克",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_冰海战记_雷夫",
+    "nameCn": "雷夫",
+    "anime": "冰海战记",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_国王排名_波吉",
+    "nameCn": "波吉",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_国王排名_卡克",
+    "nameCn": "卡克",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_国王排名_戴达",
+    "nameCn": "戴达",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_国王排名_希琳",
+    "nameCn": "希琳",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_国王排名_多玛斯",
+    "nameCn": "多玛斯",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_国王排名_德斯哈",
+    "nameCn": "德斯哈",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_国王排名_德斯帕",
+    "nameCn": "德斯帕",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_国王排名_贝宾",
+    "nameCn": "贝宾",
+    "anime": "国王排名",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_莉可丽丝_锦木千束",
+    "nameCn": "锦木千束",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_莉可丽丝_井之上泷奈",
+    "nameCn": "井之上泷奈",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_莉可丽丝_中原瑞希",
+    "nameCn": "中原瑞希",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_莉可丽丝_胡桃",
+    "nameCn": "胡桃",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_莉可丽丝_真岛",
+    "nameCn": "真岛",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_莉可丽丝_米卡",
+    "nameCn": "米卡",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_莉可丽丝_吉松真司",
+    "nameCn": "吉松真司",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_莉可丽丝_中原美春",
+    "nameCn": "中原美春",
+    "anime": "莉可丽丝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_86不存在的战区_辛耶诺赞",
+    "nameCn": "辛耶·诺赞",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_86不存在的战区_芙拉蒂蕾娜米利杰",
+    "nameCn": "芙拉蒂蕾娜·米利杰",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_86不存在的战区_莱登谢卡",
+    "nameCn": "莱登·谢卡",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_86不存在的战区_安祺艾玛",
+    "nameCn": "安祺·艾玛",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_86不存在的战区_可蕾娜库克米拉",
+    "nameCn": "可蕾娜·库克米拉",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_86不存在的战区_戴亚伊路玛",
+    "nameCn": "戴亚·伊路玛",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_86不存在的战区_阿涅塔",
+    "nameCn": "阿涅塔",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_86不存在的战区_菲多",
+    "nameCn": "菲多",
+    "anime": "86 －不存在的战区－",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔道祖师_魏无羡",
+    "nameCn": "魏无羡",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔道祖师_蓝忘机",
+    "nameCn": "蓝忘机",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔道祖师_江澄",
+    "nameCn": "江澄",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔道祖师_金光瑶",
+    "nameCn": "金光瑶",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔道祖师_蓝曦臣",
+    "nameCn": "蓝曦臣",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔道祖师_温宁",
+    "nameCn": "温宁",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔道祖师_薛洋",
+    "nameCn": "薛洋",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_魔道祖师_晓星尘",
+    "nameCn": "晓星尘",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_魔道祖师_金凌",
+    "nameCn": "金凌",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_魔道祖师_蓝思追",
+    "nameCn": "蓝思追",
+    "anime": "魔道祖师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_天官赐福_谢怜",
+    "nameCn": "谢怜",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_天官赐福_花城",
+    "nameCn": "花城",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_天官赐福_风信",
+    "nameCn": "风信",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_天官赐福_慕情",
+    "nameCn": "慕情",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_天官赐福_师青玄",
+    "nameCn": "师青玄",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_天官赐福_贺玄",
+    "nameCn": "贺玄",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_天官赐福_戚容",
+    "nameCn": "戚容",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_天官赐福_半月",
+    "nameCn": "半月",
+    "anime": "天官赐福",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_全职高手_叶修",
+    "nameCn": "叶修",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职高手_苏沐橙",
+    "nameCn": "苏沐橙",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_全职高手_陈果",
+    "nameCn": "陈果",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_全职高手_唐柔",
+    "nameCn": "唐柔",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_全职高手_包荣兴",
+    "nameCn": "包荣兴",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_全职高手_喻文州",
+    "nameCn": "喻文州",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_全职高手_黄少天",
+    "nameCn": "黄少天",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职高手_韩文清",
+    "nameCn": "韩文清",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_全职高手_王杰希",
+    "nameCn": "王杰希",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职高手_肖时钦",
+    "nameCn": "肖时钦",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_全职高手_张新杰",
+    "nameCn": "张新杰",
+    "anime": "全职高手",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_间谍教室_百合",
+    "nameCn": "百合",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_间谍教室_克劳斯",
+    "nameCn": "克劳斯",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_间谍教室_希比拉",
+    "nameCn": "希比拉",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_间谍教室_莫妮卡",
+    "nameCn": "莫妮卡",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_间谍教室_缇娅",
+    "nameCn": "缇娅",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_间谍教室_安妮特",
+    "nameCn": "安妮特",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_间谍教室_艾露玛莎拉",
+    "nameCn": "艾露玛 / 莎拉",
+    "anime": "间谍教室",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_数码宝贝_八神太一",
+    "nameCn": "八神太一",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_数码宝贝_石田大和",
+    "nameCn": "石田大和",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_数码宝贝_武之内空",
+    "nameCn": "武之内空",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_数码宝贝_泉光子郎",
+    "nameCn": "泉光子郎",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_数码宝贝_太刀川美美",
+    "nameCn": "太刀川美美",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_数码宝贝_城户丈",
+    "nameCn": "城户丈",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_数码宝贝_高石岳",
+    "nameCn": "高石岳",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_数码宝贝_八神光",
+    "nameCn": "八神光",
+    "anime": "数码宝贝",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_圣斗士星矢_星矢",
+    "nameCn": "星矢",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_圣斗士星矢_紫龙",
+    "nameCn": "紫龙",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_圣斗士星矢_冰河",
+    "nameCn": "冰河",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_圣斗士星矢_瞬",
+    "nameCn": "瞬",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_圣斗士星矢_一辉",
+    "nameCn": "一辉",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_圣斗士星矢_沙加",
+    "nameCn": "沙加",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_圣斗士星矢_撒加",
+    "nameCn": "撒加",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_圣斗士星矢_城户沙织雅典娜",
+    "nameCn": "城户沙织 / 雅典娜",
+    "anime": "圣斗士星矢",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_蓝色监狱_洁世一",
+    "nameCn": "洁世一",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_蓝色监狱_蜂乐回",
+    "nameCn": "蜂乐回",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_蓝色监狱_千切豹马",
+    "nameCn": "千切豹马",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_蓝色监狱_国神炼介",
+    "nameCn": "国神炼介",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蓝色监狱_御影玲王",
+    "nameCn": "御影玲王",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蓝色监狱_凪诚士郎",
+    "nameCn": "凪诚士郎",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_蓝色监狱_糸师凛",
+    "nameCn": "糸师凛",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_蓝色监狱_马狼照英",
+    "nameCn": "马狼照英",
+    "anime": "蓝色监狱",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_网球王子_越前龙马",
+    "nameCn": "越前龙马",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_网球王子_手冢国光",
+    "nameCn": "手冢国光",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_网球王子_不二周助",
+    "nameCn": "不二周助",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_网球王子_大石秀一郎",
+    "nameCn": "大石秀一郎",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_网球王子_菊丸英二",
+    "nameCn": "菊丸英二",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_网球王子_迹部景吾",
+    "nameCn": "迹部景吾",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_网球王子_幸村精市",
+    "nameCn": "幸村精市",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_网球王子_真田弦一郎",
+    "nameCn": "真田弦一郎",
+    "anime": "网球王子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蜡笔小新_野原新之助",
+    "nameCn": "野原新之助",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_蜡笔小新_野原美冴",
+    "nameCn": "野原美冴",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蜡笔小新_野原广志",
+    "nameCn": "野原广志",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_蜡笔小新_风间彻",
+    "nameCn": "风间彻",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蜡笔小新_樱田妮妮",
+    "nameCn": "樱田妮妮",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_蜡笔小新_佐藤正男",
+    "nameCn": "佐藤正男",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_蜡笔小新_阿呆",
+    "nameCn": "阿呆",
+    "anime": "蜡笔小新",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_哆啦a梦_哆啦a梦",
+    "nameCn": "哆啦A梦",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_哆啦a梦_野比大雄",
+    "nameCn": "野比大雄",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_哆啦a梦_源静香",
+    "nameCn": "源静香",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_哆啦a梦_刚田武胖虎",
+    "nameCn": "刚田武 / 胖虎",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_哆啦a梦_骨川小夫",
+    "nameCn": "骨川小夫",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_哆啦a梦_出木杉英才",
+    "nameCn": "出木杉英才",
+    "anime": "哆啦A梦",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_游戏王_武藤游戏",
+    "nameCn": "武藤游戏",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_游戏王_暗游戏阿图姆",
+    "nameCn": "暗游戏 / 阿图姆",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_游戏王_海马濑人",
+    "nameCn": "海马濑人",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_游戏王_城之内克也",
+    "nameCn": "城之内克也",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_游戏王_真崎杏子",
+    "nameCn": "真崎杏子",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_游戏王_貘良了",
+    "nameCn": "貘良了",
+    "anime": "游戏王",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_钢之炼金术师_爱德华艾尔利克",
+    "nameCn": "爱德华·艾尔利克",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_钢之炼金术师_阿尔冯斯艾尔利克",
+    "nameCn": "阿尔冯斯·艾尔利克",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_钢之炼金术师_温莉洛克贝尔",
+    "nameCn": "温莉·洛克贝尔",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_钢之炼金术师_罗伊马斯坦大佐",
+    "nameCn": "罗伊·马斯坦 / 大佐",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_钢之炼金术师_莉莎霍克艾",
+    "nameCn": "莉莎·霍克艾",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_钢之炼金术师_马斯休斯",
+    "nameCn": "马斯·休斯",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_钢之炼金术师_斯卡",
+    "nameCn": "斯卡",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_钢之炼金术师_泉卡迪斯",
+    "nameCn": "泉卡迪斯",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_钢之炼金术师_金布拉德雷",
+    "nameCn": "金·布拉德雷",
+    "anime": "钢之炼金术师",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_新世纪福音战士_绫波丽",
+    "nameCn": "绫波丽",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_新世纪福音战士_惣流明日香",
+    "nameCn": "惣流·明日香",
+    "anime": "新世纪福音战士",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_利姆鲁",
+    "nameCn": "利姆鲁",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_大贤者",
+    "nameCn": "大贤者",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_红丸",
+    "nameCn": "红丸",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_苍影",
+    "nameCn": "苍影",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_紫苑",
+    "nameCn": "紫苑",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_朱菜",
+    "nameCn": "朱菜",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_迪亚波罗",
+    "nameCn": "迪亚波罗",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_关于我转生变成史莱姆这档事_米莉姆",
+    "nameCn": "米莉姆",
+    "anime": "关于我转生变成史莱姆这档事",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_overlord_安兹乌尔恭",
+    "nameCn": "安兹·乌尔·恭",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_overlord_雅儿贝德",
+    "nameCn": "雅儿贝德",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_overlord_迪米乌哥斯",
+    "nameCn": "迪米乌哥斯",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_overlord_科塞特斯",
+    "nameCn": "科塞特斯",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_overlord_塞巴斯",
+    "nameCn": "塞巴斯",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_overlord_夏提雅",
+    "nameCn": "夏提雅",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_overlord_亚乌菈",
+    "nameCn": "亚乌菈",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_overlord_马雷",
+    "nameCn": "马雷",
+    "anime": "OVERLORD",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_赛马娘_特别周",
+    "nameCn": "特别周",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_赛马娘_无声铃鹿",
+    "nameCn": "无声铃鹿",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_赛马娘_东海帝王",
+    "nameCn": "东海帝王",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_赛马娘_目白麦昆",
+    "nameCn": "目白麦昆",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_赛马娘_黄金船",
+    "nameCn": "黄金船",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_赛马娘_伏特加",
+    "nameCn": "伏特加",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_赛马娘_大和赤骥",
+    "nameCn": "大和赤骥",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_赛马娘_米浴",
+    "nameCn": "米浴",
+    "anime": "赛马娘",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我推的孩子_星野爱",
+    "nameCn": "星野爱",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我推的孩子_阿库亚",
+    "nameCn": "阿库亚",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_我推的孩子_露比",
+    "nameCn": "露比",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我推的孩子_有马加奈",
+    "nameCn": "有马加奈",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_我推的孩子_黑川赤音",
+    "nameCn": "黑川赤音",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我推的孩子_mem啾",
+    "nameCn": "MEM啾",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_我推的孩子_星野爱久爱海",
+    "nameCn": "星野爱久爱海",
+    "anime": "我推的孩子",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_冰菓_折木奉太郎",
+    "nameCn": "折木奉太郎",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_冰菓_千反田爱瑠",
+    "nameCn": "千反田爱瑠",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_冰菓_福部里志",
+    "nameCn": "福部里志",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_冰菓_伊原摩耶花",
+    "nameCn": "伊原摩耶花",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_冰菓_入须冬实",
+    "nameCn": "入须冬实",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_冰菓_折木供惠",
+    "nameCn": "折木供惠",
+    "anime": "冰菓",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_小鸟游六花",
+    "nameCn": "小鸟游六花",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_富樫勇太",
+    "nameCn": "富樫勇太",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_丹生谷森夏",
+    "nameCn": "丹生谷森夏",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_五月七日茴香",
+    "nameCn": "五月七日茴香",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_凸守早苗",
+    "nameCn": "凸守早苗",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_中二病也要谈恋爱_小鸟游十花",
+    "nameCn": "小鸟游十花",
+    "anime": "中二病也要谈恋爱！",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_无头骑士异闻录_折原临也",
+    "nameCn": "折原临也",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_无头骑士异闻录_平和岛静雄",
+    "nameCn": "平和岛静雄",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无头骑士异闻录_塞尔提",
+    "nameCn": "塞尔提",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_无头骑士异闻录_龙之峰帝人",
+    "nameCn": "龙之峰帝人",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_无头骑士异闻录_纪田正臣",
+    "nameCn": "纪田正臣",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_无头骑士异闻录_园原杏里",
+    "nameCn": "园原杏里",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_无头骑士异闻录_门田京平",
+    "nameCn": "门田京平",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_无头骑士异闻录_岸谷新罗",
+    "nameCn": "岸谷新罗",
+    "anime": "无头骑士异闻录",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_鲁路修兰佩路基",
+    "nameCn": "鲁路修·兰佩路基",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_cc",
+    "nameCn": "C.C.",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_枢木朱雀",
+    "nameCn": "枢木朱雀",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_红月卡莲",
+    "nameCn": "红月卡莲",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_查尔斯d不列颠",
+    "nameCn": "查尔斯·D·不列颠",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_修奈泽尔",
+    "nameCn": "修奈泽尔",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_叛逆的鲁路修_娜娜莉v不列颠",
+    "nameCn": "娜娜莉·V·不列颠",
+    "anime": "叛逆的鲁路修",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的英雄学院_绿谷出久",
+    "nameCn": "绿谷出久",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的英雄学院_爆豪胜己",
+    "nameCn": "爆豪胜己",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_我的英雄学院_轰焦冻",
+    "nameCn": "轰焦冻",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_我的英雄学院_丽日御茶子",
+    "nameCn": "丽日御茶子",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的英雄学院_死柄木吊",
+    "nameCn": "死柄木吊",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的英雄学院_欧尔麦特",
+    "nameCn": "欧尔麦特",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_我的英雄学院_相泽消太",
+    "nameCn": "相泽消太",
+    "anime": "我的英雄学院",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_物语系列_阿良良木历",
+    "nameCn": "阿良良木历",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_物语系列_战场原黑仪",
+    "nameCn": "战场原黑仪",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_物语系列_八九寺真宵",
+    "nameCn": "八九寺真宵",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_物语系列_羽川翼",
+    "nameCn": "羽川翼",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_物语系列_忍野忍",
+    "nameCn": "忍野忍",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_物语系列_千石抚子",
+    "nameCn": "千石抚子",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_物语系列_神原骏河",
+    "nameCn": "神原骏河",
+    "anime": "物语系列",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_机动战士高达seed_基拉大和",
+    "nameCn": "基拉·大和",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_机动战士高达seed_阿斯兰萨拉",
+    "nameCn": "阿斯兰·萨拉",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_机动战士高达seed_真飞鸟",
+    "nameCn": "真·飞鸟",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_机动战士高达seed_拉克丝克莱茵",
+    "nameCn": "拉克丝·克莱茵",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_机动战士高达seed_卡嘉莉",
+    "nameCn": "卡嘉莉",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_机动战士高达seed_劳鲁克鲁泽",
+    "nameCn": "劳·鲁·克鲁泽",
+    "anime": "机动战士高达 SEED",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_星际牛仔_斯派克斯皮格尔",
+    "nameCn": "斯派克·斯皮格尔",
+    "anime": "星际牛仔",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_星际牛仔_菲瓦伦丁",
+    "nameCn": "菲·瓦伦丁",
+    "anime": "星际牛仔",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_星际牛仔_杰特布莱克",
+    "nameCn": "杰特·布莱克",
+    "anime": "星际牛仔",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_星际牛仔_艾德",
+    "nameCn": "艾德",
+    "anime": "星际牛仔",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_幽游白书_浦饭幽助",
+    "nameCn": "浦饭幽助",
+    "anime": "幽游白书",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_幽游白书_桑原和真",
+    "nameCn": "桑原和真",
+    "anime": "幽游白书",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_幽游白书_藏马",
+    "nameCn": "藏马",
+    "anime": "幽游白书",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_幽游白书_飞影",
+    "nameCn": "飞影",
+    "anime": "幽游白书",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_幽游白书_户愚吕弟",
+    "nameCn": "户愚吕弟",
+    "anime": "幽游白书",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_斩服少女killlakill_缠流子",
+    "nameCn": "缠流子",
+    "anime": "斩服少女 / Kill la Kill",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_斩服少女killlakill_鬼龙院皋月",
+    "nameCn": "鬼龙院皋月",
+    "anime": "斩服少女 / Kill la Kill",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_斩服少女killlakill_满舰饰真子",
+    "nameCn": "满舰饰真子",
+    "anime": "斩服少女 / Kill la Kill",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_斩服少女killlakill_鲜血",
+    "nameCn": "鲜血",
+    "anime": "斩服少女 / Kill la Kill",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_寄生兽_泉新一",
+    "nameCn": "泉新一",
+    "anime": "寄生兽",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_寄生兽_小右migi",
+    "nameCn": "小右 / Migi",
+    "anime": "寄生兽",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_寄生兽_君嶋加奈",
+    "nameCn": "君嶋加奈",
+    "anime": "寄生兽",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_寄生兽_田村玲子",
+    "nameCn": "田村玲子",
+    "anime": "寄生兽",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠"
+  },
+  {
+    "id": "preset_东京复仇者_花垣武道",
+    "nameCn": "花垣武道",
+    "anime": "东京复仇者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_东京复仇者_佐野万次郎mikey",
+    "nameCn": "佐野万次郎 / Mikey",
+    "anime": "东京复仇者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #059669 0%, #064E3B 100%)",
+    "avatarEmoji": "🌸"
+  },
+  {
+    "id": "preset_东京复仇者_龙宫寺坚draken",
+    "nameCn": "龙宫寺坚 / Draken",
+    "anime": "东京复仇者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️"
+  },
+  {
+    "id": "preset_东京复仇者_场地圭介",
+    "nameCn": "场地圭介",
+    "anime": "东京复仇者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "preset_东京复仇者_松野千冬",
+    "nameCn": "松野千冬",
+    "anime": "东京复仇者",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #D97706 0%, #78350F 100%)",
+    "avatarEmoji": "⚡"
+  },
+  {
+    "id": "pdb_212629",
+    "nameCn": "Giulolo",
+    "anime": "Helix Waltz",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #2563EB 0%, #1E3A8A 100%)",
+    "avatarEmoji": "🛡️",
+    "source": "pdb",
+    "sourceUrl": "https://www.personality-database.com/profile/212629",
+    "pdbProfileId": "212629"
+  },
+  {
+    "id": "pdb_212593",
+    "nameCn": "Barris Sakan",
+    "anime": "Helix Waltz",
+    "aliases": [],
+    "avatarColor": "linear-gradient(135deg, #6D28D9 0%, #4C1D95 100%)",
+    "avatarEmoji": "🧠",
+    "source": "pdb",
+    "sourceUrl": "https://www.personality-database.com/profile/212593",
+    "pdbProfileId": "212593"
+  }
+]

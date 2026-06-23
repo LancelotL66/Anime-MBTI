@@ -26,6 +26,7 @@ interface DbStats {
   totalAnimes: number;
   totalRelationships: number;
   mbtiDistribution: Record<string, number>;
+  sourceDistribution?: Record<string, number>;
   isLargeDb: boolean;
   totalImports: number;
 }
@@ -94,10 +95,10 @@ export default function App() {
     }
   };
 
-  // Handle DB Scaling to 1000+ characters
+  // Handle DB scaling to the bundled large character set
   const handleScaleDatabase = async () => {
     setLoading(true);
-    setLoadingMessage('正在调拨服务器缓存、整合 40+ 热门动漫作品及 1000+ 人物关系互对冲谱系谱线...');
+    setLoadingMessage('正在调拨服务器缓存、整合热门动漫作品及大型人物关系互对冲谱系谱线...');
     setApiError(null);
     setApiSuccess(null);
 
@@ -107,7 +108,7 @@ export default function App() {
       }).then(r => r.json());
 
       if (res.success) {
-        setApiSuccess(res.message || '1000+ 热门动漫人物性格关系网注入成功！');
+        setApiSuccess(res.message || '大型热门动漫人物性格关系网注入成功！');
         await fetchBackendData();
       } else {
         throw new Error(res.error || 'Server error during scaling process.');
@@ -147,9 +148,12 @@ export default function App() {
   };
 
   // Handle PDB Live Importer using Jina Reader API
-  const handleImportPdbIds = async (profileIds: string[]) => {
+  const handleImportPdbIds = async (
+    profileIds: string[],
+    options: { includeRelated?: boolean; relatedDepth?: number; forceRefresh?: boolean } = {}
+  ) => {
     setLoading(true);
-    setLoadingMessage(`正在通过 Jina Reader 向 PDB 验证并索取 [ID: ${profileIds.join(', ')}] 的四维度投票比、Enneagram 与宿命关系谱...`);
+    setLoadingMessage(`正在通过 Jina Reader 向 PDB 批量同步 [ID: ${profileIds.join(', ')}] 的可验证人格档案${options.includeRelated ? '，并递归导入 Related Profiles' : ''}...`);
     setApiError(null);
     setApiSuccess(null);
 
@@ -157,7 +161,7 @@ export default function App() {
       const res = await fetch('/api/database/import-pdb', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ profileIds })
+        body: JSON.stringify({ profileIds, ...options })
       }).then(r => r.json());
 
       if (res.success) {
@@ -168,6 +172,32 @@ export default function App() {
       }
     } catch (e: any) {
       setApiError(`PDB 导入出错: ${e.message || '网络瞬时失稳，请稍候重试'}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSyncPdb = async (options: { forceRefresh?: boolean; limit?: number } = {}) => {
+    setLoading(true);
+    setLoadingMessage('正在刷新本地已验证的 PDB 档案，重新读取 MBTI、投票、功能栈和来源字段...');
+    setApiError(null);
+    setApiSuccess(null);
+
+    try {
+      const res = await fetch('/api/database/sync-pdb', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(options)
+      }).then(r => r.json());
+
+      if (res.success) {
+        setApiSuccess(res.message);
+        await fetchBackendData();
+      } else {
+        throw new Error(res.error || 'PDB sync request failed.');
+      }
+    } catch (e: any) {
+      setApiError(`PDB 同步出错: ${e.message || '网络瞬时失稳，请稍候重试'}`);
     } finally {
       setLoading(false);
     }
@@ -348,8 +378,8 @@ export default function App() {
             >
               <Database size={13} />
               🗄️ AI 云数据库
-              {dbStats && dbStats.totalCharacters >= 1000 && (
-                <span className="bg-emerald-500 text-white text-[9px] font-extrabold px-1.5 py-0.5 rounded-full animate-pulse border border-black/10">1000+</span>
+              {dbStats?.isLargeDb && (
+                <span className="bg-emerald-500 text-white text-[9px] font-extrabold px-1.5 py-0.5 rounded-full animate-pulse border border-black/10">750+</span>
               )}
             </button>
           </div>
@@ -407,9 +437,9 @@ export default function App() {
                   <div className="flex items-center gap-3.5">
                     <span className="text-4xl shrink-0">🚀</span>
                     <div>
-                      <h4 className="font-extrabold text-[#2D3436] text-sm md:text-base">觉得千级角色库还不够看？您拥有自由追加扩容的特权！</h4>
+                      <h4 className="font-extrabold text-[#2D3436] text-sm md:text-base">觉得大型角色库还不够看？您拥有自由追加扩容的特权！</h4>
                       <p className="text-xs text-gray-800 font-bold leading-relaxed mt-1">
-                        系统已经默认搭载并初始分配了 <strong>1,000+</strong> 精选动漫名角。若想查找更多未收录人物，欢迎点按上方导航的 <strong>🗄️ AI 云数据库</strong> 页面输入任何二次元番剧名，一键即可实时析出并自动追加全套新角色。
+                        系统已经默认搭载并初始分配了 <strong>{dbStats?.totalCharacters || '数百'}</strong> 位精选动漫名角。若想查找更多未收录人物，欢迎点按上方导航的 <strong>🗄️ AI 云数据库</strong> 页面输入任何二次元番剧名，一键即可实时析出并自动追加全套新角色。
                       </p>
                     </div>
                   </div>
@@ -618,7 +648,7 @@ export default function App() {
                     <div className="text-5xl">🕵️‍♂️</div>
                     <h4 className="text-lg font-black text-gray-900">未检索到任何符合条件的动漫角色</h4>
                     <p className="text-xs text-gray-400 max-w-md mx-auto">
-                      您可以尝试更加简短的模糊词检索，返回大数据库中心一键激活千级数据库，或者调动服务器 Gemini 导入相应动漫。
+                      您可以尝试更加简短的模糊词检索，返回大数据库中心一键激活大型数据库，或者调动服务器 Gemini 导入相应动漫。
                     </p>
                     <button
                       onClick={clearFilters}
@@ -752,6 +782,7 @@ export default function App() {
                   onScaleDb={handleScaleDatabase}
                   onImportAnime={handleImportAnime}
                   onImportPdbIds={handleImportPdbIds}
+                  onSyncPdb={handleSyncPdb}
                   loading={loading}
                   loadingMessage={loadingMessage}
                   error={apiError}

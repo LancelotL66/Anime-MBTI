@@ -22,12 +22,17 @@ interface DatabaseCenterProps {
     totalAnimes: number;
     totalRelationships: number;
     mbtiDistribution: Record<string, number>;
+    sourceDistribution?: Record<string, number>;
     isLargeDb: boolean;
     totalImports: number;
   } | null;
   onScaleDb: () => Promise<void>;
   onImportAnime: (animeName: string) => Promise<void>;
-  onImportPdbIds?: (profileIds: string[]) => Promise<void>;
+  onImportPdbIds?: (
+    profileIds: string[],
+    options?: { includeRelated?: boolean; relatedDepth?: number; forceRefresh?: boolean }
+  ) => Promise<void>;
+  onSyncPdb?: (options?: { forceRefresh?: boolean; limit?: number }) => Promise<void>;
   loading: boolean;
   loadingMessage: string;
   error: string | null;
@@ -39,6 +44,7 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
   onScaleDb,
   onImportAnime,
   onImportPdbIds,
+  onSyncPdb,
   loading,
   loadingMessage,
   error,
@@ -46,6 +52,8 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
 }) => {
   const [customAnime, setCustomAnime] = useState('');
   const [pdbQuery, setPdbQuery] = useState('');
+  const [includeRelated, setIncludeRelated] = useState(true);
+  const [forcePdbRefresh, setForcePdbRefresh] = useState(false);
 
   // Hot preset anime collections that the user can import instantly
   const presetHotImports = [
@@ -85,7 +93,11 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
       return;
     }
 
-    onImportPdbIds(parsedIds);
+    onImportPdbIds(parsedIds, {
+      includeRelated,
+      relatedDepth: includeRelated ? 1 : 0,
+      forceRefresh: forcePdbRefresh
+    });
     setPdbQuery('');
   };
 
@@ -106,7 +118,7 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
             ⚡ 智能动漫性格云端数据库 (AI MBTI Database Engine)
           </h2>
           <p className="text-sm text-gray-800 font-bold max-w-3xl leading-relaxed">
-            已经突破传统前端静态卡片的条框束缚！通过 Express API 后端配合全新的 <strong>Gemini 人格剖析系统</strong>，我们为本应用接入了可在数秒内承载十万级规模的智能宿命性格关系网。
+            已经突破传统前端静态卡片的条框束缚！当前推荐使用 <strong>Personality Database (PDB)</strong> 作为权威人物人格来源；AI 导入仅作为非权威扩展入口，PDB 导入会保留可追溯来源链接。
           </p>
         </div>
       </div>
@@ -167,10 +179,15 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
             <div className="bg-[#E6F4EA] border-2 border-[#2D3436] rounded-2xl p-4 flex items-center gap-3 shadow-[3px_3px_0px_0px_#2D3436]">
               <CheckCircle className="text-emerald-500 shrink-0" size={24} />
               <div>
-                <h4 className="text-emerald-950 font-black text-sm">千级动漫卡组数据库处于就绪状态 (Database Active)</h4>
+                <h4 className="text-emerald-950 font-black text-sm">大型动漫卡组数据库处于就绪状态 (Database Active)</h4>
                 <p className="text-[11px] text-emerald-800 leading-relaxed">
-                  系统已预加载并存储了包含 <strong>{stats ? stats.totalCharacters : '1,000+'}</strong> 个经典动漫人物以及极其密集的宿命羁绊关系网节点。您可以在大厅中随意模糊检索！想看更多角色，也支持直接输入动漫名抓取实时扩容。
+                  系统已预加载并存储了包含 <strong>{stats ? stats.totalCharacters : '数百'}</strong> 个经典动漫人物以及极其密集的宿命羁绊关系网节点。您可以在大厅中随意模糊检索！想看更多角色，也支持直接输入动漫名抓取实时扩容。
                 </p>
+                {stats?.sourceDistribution && (
+                  <p className="text-[10px] text-emerald-900 font-black mt-1">
+                    PDB 来源角色：{stats.sourceDistribution.pdb || 0} / {stats.totalCharacters}
+                  </p>
+                )}
               </div>
             </div>
 
@@ -219,7 +236,7 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
             <div className="border-b-2 border-[#2D3436] pb-3">
               <h3 className="text-lg font-black text-gray-900 flex items-center gap-2">
                 <Sparkles size={20} className="text-[#6C5CE7] animate-spin" style={{ animationDuration: '6s' }} /> 
-                AI 动漫性格引流 (Dynamic Importer)
+                非权威 AI 扩展导入 (Optional Importer)
               </h3>
             </div>
 
@@ -248,7 +265,7 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
                 </div>
               </div>
               <p className="text-[10px] text-gray-400 font-medium leading-relaxed">
-                ℹ️ 系统底层将直接通过 Gemini API 结合互联网大数据的二次元 consensus，自动分析并析出该动漫最具人气的 6 名核心主角 full information、4维心智比重、详细剧情例证、粉丝讨论争议以及成员之间的互相对冲/融合羁绊，完美形成新关系链网并编入数据库。
+                ℹ️ 该入口用于快速扩充演示数据，结果会标记为 AI 辅助来源。若要建立权威人物 MBTI 数据，请优先使用下方 PDB 档案导入。
               </p>
             </form>
 
@@ -256,7 +273,7 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
             <form onSubmit={handlePdbImportSubmit} className="space-y-3 pt-4 border-t border-dashed border-gray-200">
               <div className="space-y-1">
                 <label className="text-xs font-black text-gray-500 uppercase flex items-center gap-1">
-                  <Database size={12} className="text-indigo-500" /> PDB 经典宿命直接导入 (PDB Web Scraper)
+                  <Database size={12} className="text-indigo-500" /> PDB 权威档案导入 (PDB Source Import)
                 </label>
                 <div className="relative">
                   <input
@@ -272,14 +289,55 @@ export const DatabaseCenter: React.FC<DatabaseCenterProps> = ({
                     disabled={loading || !pdbQuery.trim()}
                     className="absolute right-2 top-2 bottom-2 bg-[#6C5CE7] hover:bg-indigo-700 disabled:opacity-40 text-white font-bold text-xs px-2.5 rounded-lg border border-black cursor-pointer"
                   >
-                    Jina抓取导入
+                    PDB导入
                   </button>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
+                  <label className="flex items-center gap-2 bg-slate-50 border border-[#2D3436] rounded-lg px-2.5 py-2 text-[10px] font-black text-gray-700">
+                    <input
+                      type="checkbox"
+                      checked={includeRelated}
+                      onChange={(e) => setIncludeRelated(e.target.checked)}
+                      disabled={loading}
+                    />
+                    同步 Related Profiles
+                  </label>
+                  <label className="flex items-center gap-2 bg-slate-50 border border-[#2D3436] rounded-lg px-2.5 py-2 text-[10px] font-black text-gray-700">
+                    <input
+                      type="checkbox"
+                      checked={forcePdbRefresh}
+                      onChange={(e) => setForcePdbRefresh(e.target.checked)}
+                      disabled={loading}
+                    />
+                    强制刷新缓存
+                  </label>
                 </div>
               </div>
               <p className="text-[10px] text-gray-400 font-medium leading-relaxed">
-                ℹ️ 利用 <strong>Jina Reader API</strong> 实时解析 Personality Database。不仅抓取基础 MBTI，更支持高精度析出：四翼投票分布（Four Letter）、九型人格（Enneagram）、Socionics、Big 5 并在本地 /data/pdb 建立本地二级缓存以避免重复握手。
+                ℹ️ 利用 <strong>Jina Reader</strong> 读取 Personality Database 页面，只把页面中能验证的 MBTI、投票、功能栈、作品和 Related Profiles 写入数据库。PDB 未提供的名言或剧情关系会明确标记为未提供，不再由 AI 补写成权威数据。
               </p>
             </form>
+
+            {onSyncPdb && (
+              <div className="space-y-2 pt-4 border-t border-dashed border-gray-200">
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <div className="text-xs font-black text-gray-500 uppercase">PDB 同步流程</div>
+                    <p className="text-[10px] text-gray-400 font-medium leading-relaxed">
+                      刷新所有已验证 PDB 档案，重新读取投票、功能栈、更新时间和 Related Profiles。
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    disabled={loading || !stats?.sourceDistribution?.pdb_verified}
+                    onClick={() => onSyncPdb({ forceRefresh: true })}
+                    className="shrink-0 bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 text-white border-2 border-[#2D3436] px-3 py-2 rounded-xl text-xs font-black shadow-[2px_2px_0px_0px_#2D3436] cursor-pointer"
+                  >
+                    同步PDB
+                  </button>
+                </div>
+              </div>
+            )}
 
             {/* Quick preset hot triggers */}
             <div className="space-y-2 pt-3 border-t border-gray-100">

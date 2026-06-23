@@ -23,6 +23,9 @@ export interface CharacterBase {
   aliases: string[];
   avatarColor?: string;
   avatarEmoji?: string;
+  source?: 'pdb' | 'manual' | 'ai_assisted';
+  sourceUrl?: string;
+  pdbProfileId?: string;
 }
 
 export interface CharacterTyping {
@@ -46,11 +49,16 @@ export interface CharacterProfile {
   fandomDiscussion?: string;
   strengths: string[];
   weaknesses: string[];
+  quoteSource?: 'pdb' | 'not_provided' | 'manual' | 'ai_assisted';
   generatedFrom?: {
     mbti: MBTIType;
     source: 'pdb';
     sourceUrl?: string;
   };
+}
+
+function readJsonFile<T>(filePath: string): T {
+  return JSON.parse(fs.readFileSync(filePath, 'utf8')) as T;
 }
 
 // 1. Programmatic avatar color & icon getter based on MBTI traits & famous character names
@@ -267,24 +275,19 @@ export class CharDatabase {
 
     const oldDbFile = path.join(process.cwd(), 'characters_db.json');
 
-    // 1. If decoupled split files exist, read them
+    // 1. Prefer the normalized split store when all required tables are present.
     if (fs.existsSync(baseFile) && fs.existsSync(typingFile) && fs.existsSync(profileFile)) {
       try {
-        this.baseStore = JSON.parse(fs.readFileSync(baseFile, 'utf8'));
-        this.typingStore = JSON.parse(fs.readFileSync(typingFile, 'utf8'));
-        this.profileStore = JSON.parse(fs.readFileSync(profileFile, 'utf8'));
-        this.relationshipStore = fs.existsSync(relFile) ? JSON.parse(fs.readFileSync(relFile, 'utf8')) : [];
+        this.baseStore = readJsonFile<CharacterBase[]>(baseFile);
+        this.typingStore = readJsonFile<CharacterTyping[]>(typingFile);
+        this.profileStore = readJsonFile<CharacterProfile[]>(profileFile);
+        this.relationshipStore = fs.existsSync(relFile) ? readJsonFile<Relationship[]>(relFile) : [];
         
         this.totalImports = this.typingStore.filter(t => t.source === 'ai_assisted').length;
         console.log(`[Database] Loaded split store successfully. Total: ${this.baseStore.length} characters.`);
-        
-        // Clean up old giant legacy DB if it still exists to keep workspace tidy
-        if (fs.existsSync(oldDbFile)) {
-          fs.unlinkSync(oldDbFile);
-        }
         return;
       } catch (err) {
-        console.error('[Database] Split store parsing error. Performing self-heal...', err);
+        console.error('[Database] Split store parsing error. Falling back to legacy migration/seed.', err);
       }
     }
 
@@ -292,8 +295,7 @@ export class CharDatabase {
     if (fs.existsSync(oldDbFile)) {
       try {
         console.log('[Database] Migrating monolithic characters_db.json into split normalized store...');
-        const oldContent = fs.readFileSync(oldDbFile, 'utf8');
-        const oldDb = JSON.parse(oldContent);
+        const oldDb = readJsonFile<any>(oldDbFile);
         
         const charsList = oldDb.characters || [];
         const relsList = oldDb.relationships || [];
@@ -319,7 +321,7 @@ export class CharDatabase {
             mbti: c.mbti,
             enneagram: undefined,
             confidence: 0.9,
-            source: c.id.startsWith('preset_') ? 'pdb' : (c.id.startsWith('ai_') ? 'ai_assisted' : 'manual'),
+            source: c.id.startsWith('ai_') ? 'ai_assisted' : 'manual',
             updatedAt: new Date().toISOString(),
             voteBreakdown: c.dimensions || { E: 50, N: 50, T: 50, P: 50 }
           };
@@ -341,11 +343,9 @@ export class CharDatabase {
 
         this.relationshipStore = relsList;
         this.save();
-        
-        fs.unlinkSync(oldDbFile);
-        console.log('[Database] Successfully migrated legacy characters_db.json and purged the old file.');
+        console.log('[Database] Successfully migrated legacy characters_db.json into split tables.');
       } catch (e: any) {
-        console.error('[Database] Old database migration failed:', e.message);
+        console.error('[Database] Legacy database migration skipped:', e.message);
       }
     }
   }
@@ -458,7 +458,7 @@ export class CharDatabase {
               characterId: id,
               mbti: rawChar.mbti,
               confidence: 0.95,
-              source: 'pdb',
+              source: 'manual',
               updatedAt: new Date().toISOString(),
               voteBreakdown: rawChar.dimensions
             };
@@ -536,7 +536,11 @@ export class CharDatabase {
         matches: {
           perfect: perfectMatches as MBTIType[],
           good: goodMatches as MBTIType[]
-        }
+        },
+        source: typing?.source || base.source,
+        sourceUrl: typing?.sourceUrl || base.sourceUrl,
+        pdbProfileId: typing?.pdbProfileId || base.pdbProfileId,
+        quoteSource: profile?.quoteSource
       };
     });
   }
@@ -555,14 +559,31 @@ export class CharDatabase {
       dist[t.mbti] = (dist[t.mbti] || 0) + 1;
     });
 
+    const sourceDistribution: Record<string, number> = {};
+    this.typingStore.forEach(t => {
+      const isVerifiedPdb = t.source === 'pdb' && Boolean(t.pdbProfileId || t.sourceUrl);
+      const sourceKey = isVerifiedPdb ? 'pdb_verified' : t.source;
+      sourceDistribution[sourceKey] = (sourceDistribution[sourceKey] || 0) + 1;
+    });
+
     return {
       totalCharacters: this.baseStore.length,
       totalAnimes: uniqueAnimes.size,
       totalRelationships: this.relationshipStore.length,
       mbtiDistribution: dist,
-      isLargeDb: this.baseStore.length >= 800,
+      sourceDistribution,
+      isLargeDb: this.baseStore.length >= 750,
       totalImports: this.totalImports
     };
+  }
+
+  public getPdbProfileIds(): string[] {
+    return Array.from(new Set(
+      this.typingStore
+        .filter(t => t.source === 'pdb' && Boolean(t.pdbProfileId || t.sourceUrl))
+        .map(t => t.pdbProfileId || t.sourceUrl?.match(/profile\/(\d+)/)?.[1])
+        .filter((id): id is string => Boolean(id))
+    ));
   }
 
   // Seeding the giant listing of 90+ anime rosters deterministically
@@ -594,7 +615,7 @@ export class CharDatabase {
             characterId: id,
             mbti: mbti as MBTIType,
             confidence: 0.9,
-            source: 'pdb',
+            source: 'manual',
             updatedAt: new Date().toISOString(),
             voteBreakdown: {
               E: mbti.includes('E') ? 75 : 25,
@@ -791,7 +812,10 @@ export class CharDatabase {
         anime: item.anime,
         aliases: [],
         avatarColor: avatar.color,
-        avatarEmoji: avatar.emoji
+        avatarEmoji: avatar.emoji,
+        source: 'pdb',
+        sourceUrl: item.sourceUrl,
+        pdbProfileId: item.pdbProfileId
       };
 
       const typing: CharacterTyping = {
@@ -801,20 +825,40 @@ export class CharDatabase {
         confidence: 0.95,
         source: 'pdb',
         pdbProfileId: item.pdbProfileId,
+        sourceUrl: item.sourceUrl,
         voteBreakdown: item.voteBreakdown || { E: 50, N: 50, T: 50, P: 50 },
         updatedAt: item.updatedAt || new Date().toISOString()
       };
 
       const fields = getDynamicMbtiFields(nameCn, item.anime, item.mbti);
+      const functions = item.cognitiveFunctions?.length ? `功能栈：${item.cognitiveFunctions.join(' / ')}。` : '';
+      const voteText = item.votesCount ? `Four Letter 投票 ${item.votesCount} 张。` : 'PDB 页面未公开投票数。';
+      const dimensionText = item.voteBreakdown
+        ? `四维投票：E ${item.voteBreakdown.E}% / N ${item.voteBreakdown.N}% / T ${item.voteBreakdown.T}% / P ${item.voteBreakdown.P}%。`
+        : 'PDB 页面未公开完整四维百分比。';
+      const sourceUrlText = item.sourceUrl ? `来源：${item.sourceUrl}` : '来源：PDB';
 
       const profile: CharacterProfile = {
         characterId: id,
-        quote: item.quote || fields.quote,
-        summary: item.summary || fields.summary,
-        plotProof: fields.plotProof,
-        fandomDiscussion: `该角色在 Personality Database 拥有真实记录，共收获了 ${item.votesCount} 张投票。评级详情：Enneagram ${item.enneagram || '未知'}，Socionics ${item.socionics || '未知'}，Big Five ${item.bigFive || '未知'}。`,
-        strengths: fields.strengths,
-        weaknesses: fields.weaknesses
+        quote: item.quote || 'PDB 页面未提供该角色名言。',
+        summary: item.summary || `PDB 将 ${nameCn} 标记为 ${item.mbti}。${voteText}`,
+        plotProof: `${voteText}${dimensionText}${functions}${sourceUrlText}`,
+        fandomDiscussion: `该角色在 Personality Database 拥有真实记录。评级详情：MBTI ${item.mbti}，Enneagram ${item.enneagram || '未公开'}，Socionics ${item.socionics || '未公开'}，Big Five ${item.bigFive || '未公开'}。`,
+        strengths: [
+          `PDB 共识类型：${item.mbti}`,
+          voteText,
+          functions || 'PDB 页面未提供完整功能栈。'
+        ],
+        weaknesses: [
+          'PDB 页面未提供角色弱点条目。',
+          '本条目不使用 AI 补写弱点，避免把推断伪装为 PDB 数据。'
+        ],
+        quoteSource: item.quote ? 'pdb' : 'not_provided',
+        generatedFrom: {
+          mbti: item.mbti,
+          source: 'pdb',
+          sourceUrl: item.sourceUrl
+        }
       };
 
       // Upsert
@@ -834,6 +878,39 @@ export class CharDatabase {
         this.typingStore.push(typing);
         this.profileStore.push(profile);
       }
+    });
+
+    scrapedList.forEach(item => {
+      const fromId = `pdb_${item.pdbProfileId}`;
+      const relatedProfiles = item.relatedProfiles || [];
+
+      relatedProfiles.forEach((related: any) => {
+        const toId = `pdb_${related.pdbProfileId}`;
+        const targetExists = this.baseStore.some(b => b.id === toId);
+        if (!targetExists || fromId === toId) return;
+
+        const exists = this.relationshipStore.some(
+          r => (r.fromId === fromId && r.toId === toId) || (r.fromId === toId && r.toId === fromId)
+        );
+        if (exists) return;
+
+        const fromTyping = this.typingStore.find(t => t.characterId === fromId);
+        const toTyping = this.typingStore.find(t => t.characterId === toId);
+        const comp = fromTyping && toTyping
+          ? calculateMbtiCompatibility(fromTyping.mbti, toTyping.mbti)
+          : { score: 50, label: 'PDB 相关档案' };
+
+        this.relationshipStore.push({
+          fromId,
+          toId,
+          relationType: 'friend',
+          relationLabel: 'PDB Related Profile',
+          compatibilityScore: comp.score,
+          description: `PDB 在 ${item.nameCn} 的档案页将 ${related.name} 列为 Related Profile。该连接来自 PDB 页面，不代表官方剧情关系类型。`,
+          source: 'pdb_related_profile',
+          sourceUrl: item.sourceUrl
+        });
+      });
     });
 
     this.save();
